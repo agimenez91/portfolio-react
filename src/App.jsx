@@ -7,7 +7,7 @@ import Error404 from "./views/Error404"
 import Legal from "./views/Legal"
 import Privacy from "./views/Privacy"
 import Project from "./views/Project"
-
+import "./globalStyles/GlobalStyle.scss"
 
 function App() {
 
@@ -15,12 +15,12 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={ <Home /> } />
+        <Route path='/project' element={ <Project /> } />
         <Route path='/contact' element={ <Contact /> } />
-        <Route path='/Cookies' element={ <Cookies /> } />
+        <Route path='/cookies' element={ <Cookies /> } />
+        <Route path='/legal' element={ <Legal /> } />
+        <Route path='/privacy' element={ <Privacy /> } />
         <Route path='/404' element={ <Error404 /> } />
-        <Route path='/Legal' element={ <Legal /> } />
-        <Route path='/Privacy' element={ <Privacy /> } />
-        <Route path='/Project' element={ <Project /> } />
       </Routes>
     </>
   )
