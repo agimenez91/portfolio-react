@@ -1,6 +1,5 @@
 import { Routes } from "react-router-dom"
 import { Route } from "react-router-dom"
-import Home from "./views/home"
 import Contact from "./views/contact"
 import Cookies from "./views/Cookies"
 import Error404 from "./views/Error404"
@@ -9,6 +8,7 @@ import Privacy from "./views/Privacy"
 import Project from "./views/Project"
 import "./globalStyles/GlobalStyle.scss"
 import Topbar from "./components/TopBar/Topbar"
+import Home from "./views/home"
 
 function App() {
 
