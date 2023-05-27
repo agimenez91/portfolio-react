@@ -1,0 +1,59 @@
+.projectCard {
+    background: url('https://placekeanu.com/250/g');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 3.2rem;
+    color: var(--color-pearl);
+    fill: var(--color-pearl);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    aspect-ratio: 4/2;
+    justify-content: space-evenly;
+
+    & h2 {
+        color: var(--color-pearl);
+        margin: 0;
+        padding: 0;
+        line-height: 1.2em;
+    }
+
+    &__content {
+        z-index: 2;
+        opacity: 0%;
+    }
+
+    &__overlay {
+        opacity: 0%;
+    }
+
+    &__info {
+        padding-bottom: 4rem;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__icons {
+        display: flex;
+        gap: 1.6rem;
+    }
+
+    &:hover .projectCard__overlay {
+        background-color: #222222d0;
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        transition: 0.3s ease-in-out;
+        opacity: 100%;
+    }
+
+    &:hover .projectCard__content {
+        opacity: 100%;
+        transition: 0.3s ease-in-out;
+    }
+
+}

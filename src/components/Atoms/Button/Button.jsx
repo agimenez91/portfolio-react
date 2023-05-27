@@ -1,13 +1,21 @@
-import "./Button.scss"
+import PropTypes from 'prop-types';
+import './Button.scss';
 
-function Button() {
+function Button({ content, type }) {
+  return (
+    <>
+      <button className={type}>{content}</button>
+    </>
+  );
+}
 
-    return (
-      <>
-        <h1>hola soy Button</h1>
-      </>
-    )
-  }
-  
-export default Button
+Button.propTypes = {
+  content: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+};
+
+export default Button;
+
+
+
   

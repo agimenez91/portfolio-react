@@ -1,0 +1,10 @@
+@import '../../globalStyles/tools';
+
+.cover {
+    @include paddingX();
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}

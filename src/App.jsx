@@ -8,11 +8,14 @@ import Legal from "./views/Legal"
 import Privacy from "./views/Privacy"
 import Project from "./views/Project"
 import "./globalStyles/GlobalStyle.scss"
+import Topbar from "./components/TopBar/Topbar"
 
 function App() {
 
   return (
     <>
+      <Topbar />
+
       <Routes>
         <Route path='/' element={ <Home /> } />
         <Route path='/project' element={ <Project /> } />

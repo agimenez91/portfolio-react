@@ -1,10 +1,15 @@
+import Button from "../Atoms/Button/Button"
 import "./Filter.scss"
 
 function Filter() {
 
     return (
       <>
-        <h1>hola soy Filter</h1>
+        <div className="filter">
+          <Button content='All'></Button>
+          <Button content='Design'></Button>
+          <Button content='Development'></Button>
+        </div>
       </>
     )
   }

@@ -1,0 +1,17 @@
+.col3 {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    &--item {
+        width: 100%;
+
+        @include MQ($tablet) {
+            width: 50%;
+        }
+
+        @include MQ($desktop) {
+            width: 33.3333%;
+        }
+    }
+}

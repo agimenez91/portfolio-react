@@ -1,0 +1,71 @@
+@import 'tools';
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: var(--typo-accent);
+    line-height: 1.2em;
+    margin: 0 0 0.2em 0;
+    color: var(--color-greyscale9);
+}
+
+$base-font-size: 3.2rem; 
+$font-size-difference: 0.3rem; 
+
+@for $i from 1 through 6 {
+  $font-size: $base-font-size - ($font-size-difference * ($i - 1));
+  h#{$i}, .h#{$i} {
+    font-size: $font-size;
+  }
+}
+
+@include MQ ($tablet) {
+    $base-font-size: 3.6rem; 
+    $font-size-difference: 0.3rem; 
+
+    @for $i from 1 through 6 {
+      $font-size: $base-font-size - ($font-size-difference * ($i - 1));
+      h#{$i}, .h#{$i} {
+        font-size: $font-size;
+      }
+    }
+}
+
+p, .p, small, .small, big, .big {
+    font-family: var(--typo-main);
+    line-height: 1.5em;
+    font-weight: light;
+    margin: 0 0 1em 0;
+    max-width: 80rem;
+}
+
+p, .p {
+    font-size: 1.6rem;
+
+    @include MQ ($tablet) {
+        font-size: 1.8rem;
+    }
+}
+
+small, .small {
+    font-size: 1.4rem;
+
+    @include MQ ($tablet) {
+        font-size: 1.6rem;
+    }
+}
+
+big, .big {
+    font-size: 1.8rem;
+
+    @include MQ ($tablet) {
+        font-size: 2rem;
+    }
+}
+
+.display {
+    font-size: 4.7rem;
+    letter-spacing: 0.4rem;
+
+    @include MQ ($tablet) {
+        font-size: 6.9rem;
+    }
+}

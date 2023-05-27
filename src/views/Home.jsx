@@ -1,11 +1,21 @@
 import Cover from "../components/Cover/Cover"
+import Filter from "../components/Filter/Filter"
+import ProjectCard from "../components/ProjectCard/ProjectCard"
 
 function Home() {
 
     return (
       <>
         <Cover />
-        <h1>hola soy la home</h1>
+        <Filter />
+        <div className="col3">
+          <ProjectCard/>
+          <ProjectCard/>
+          <ProjectCard/>          
+          <ProjectCard/>          
+          <ProjectCard/>
+          <ProjectCard/>
+        </div>
       </>
     )
   }

@@ -1,0 +1,93 @@
+@import '../../globalStyles/tools';
+
+.topbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: #f8f9fae3;
+    @include paddingX();
+
+
+    
+    @include MQ ($desktop) {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    & p, .burger {
+        z-index: 3;
+    }
+
+}
+
+.burger {
+    &__nav {
+        position: absolute;
+        height: 100vh;
+        padding: 6rem 1.6rem;
+        background-color: #f8f9fae3;
+        transition: 0.2s ease-in-out;
+        flex-direction: column;
+        right: 0;
+    }
+}
+
+.nav {
+    font-family: var(--typo-accent);
+    font-size: 1.6rem;
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    gap: 2.4rem;
+    z-index: 2;
+    @include paddingX();
+
+    & a {
+        text-decoration: none;
+        color: var(--color-greyscale10);
+        cursor: pointer;
+
+        &:hover {
+            color: var(--color-rose);
+        }
+    }
+
+    &--desktop {
+        display: none;
+    }
+
+    @include MQ ($tablet) {
+        font-size: 1.7rem;
+
+        &__wrap {
+            display: flex;
+            gap: 3.2rem;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        &--desktop {
+            display: flex;
+            padding: 0;
+        }
+    }
+
+    
+
+}
+
+.active {
+    inset: 0;
+}
+
+.copywright {
+    position: absolute;
+    top: calc(100vh - 20rem);
+    transform: rotate(270deg);
+    display: none;
+}

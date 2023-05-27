@@ -1,0 +1,33 @@
+$desktop:   70rem;
+$tablet:    48rem;
+$mobile:    30rem;
+
+@mixin MQ($mediaquery_unit: $mobile) {
+    @media all and (min-width: $mediaquery_unit) {
+        @content;
+    }
+}
+
+$map-layers: (
+    "below":        -1,
+    "default":      0,
+    "above":        1,
+    "over":         2,
+    "absolute":     3
+);
+
+@function z($layer) {
+    @return map-get($map-layers, $layer);
+}
+
+@mixin paddingX {
+    padding: 0 1.6rem;
+
+    @include MQ($tablet) {
+        padding: 0 8rem;
+    }
+
+    @include MQ($desktop) {
+        padding: 0 16rem;
+    }
+}

@@ -1,0 +1,109 @@
+:root {
+    //Colors
+    //Accent colors:
+    --color-blue:                     #A7B9F9;
+    --color-lila:                     #BDBBFA;
+    --color-red:                      #FF595A;
+    --color-rose:                     #FA8787;
+    --color-green:                    #B8E2B0;
+    --color-mint:                     #CCE7D3;
+
+    //Greyscale:
+    --color-greyscale1:               #F5F5F5;
+    --color-greyscale2:               #EAEAEC;
+    --color-greyscale3:               #E6E6E6;
+    --color-greyscale4:               #E4E4E4;
+    --color-greyscale5:               #D9D9DB;
+    --color-greyscale6:               #BFC0C2;
+    --color-greyscale7:               #888989;
+    --color-greyscale8:               #565656;
+    --color-greyscale9:               #414141;
+    --color-greyscale10:              #222222;
+
+    //Neutral Colors:
+    --color-white:                    #ffffff;
+    --color-black:                    #121212;
+    --color-pearl:                    #F8F9FA;
+
+    //Notifications Colors:
+    --color-yellow:                   #F9D873;
+
+    --color-error:                    var(--color-red);
+    --color-warning:                  var(--color-yellow);
+    --color-success:                  var(--color-green);
+    --color-info:                     var(--color-blue);
+
+    //Color applications
+    //Backgrounds:
+    --bg-color-blue:                     var(--color-blue);
+    --bg-color-lila:                     var(--color-lila);
+    --bg-color-red:                      var(--color-red);
+    --bg-color-rose:                     var(--color-rose);
+    --bg-color-green:                    var(--color-green);
+    --bg-color-mint:                     var(--color-mint);
+    --bg-color-greyscale1:               var(--color-greyscale1);
+    --bg-color-greyscale2:               var(--color-greyscale2);
+    --bg-color-greyscale3:               var(--color-greyscale3);
+    --bg-color-greyscale4:               var(--color-greyscale4);
+    --bg-color-greyscale5:               var(--color-greyscale5);
+    --bg-color-greyscale6:               var(--color-greyscale6);
+    --bg-color-greyscale7:               var(--color-greyscale7);
+    --bg-color-greyscale8:               var(--color-greyscale8);
+    --bg-color-greyscale9:               var(--color-greyscale9);
+    --bg-color-greyscale10:              var(--color-greyscale10);
+    --bg-color-white:                    var(--color-white);
+    --bg-color-black:                    var(--color-black);
+    --bg-color-pearl:                    var(--color-pearl);
+    --bg-color-yellow:                   var(--color-yellow);
+
+
+    --typo-main:                  'Helvetica Light Regular', arial, sans-serif;
+    --typo-accent:                'Heming Variable', ui-monospace,monospace;
+}
+
+@font-face {
+    font-family: 'Heming Variable';
+    src: local('Heming Variable'), local('Heming-Variable'),
+        url('../assets/heming_variable-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Light Regular';
+    src: local('Helvetica Light Regular'), local('Helvetica-Light-Regular'),
+        url('../assets/helvetica_light_regular-webfont.woff2') format('woff');
+    font-weight: light;
+    font-style: normal;
+}
+
+* , *::before , *::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--typo-main);
+    color: var(--color-greyscale10);
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 160rem;
+    margin: auto;
+    scroll-behavior: smooth;
+    background-color: var(--bg-color-pearl);
+}  
+  
+// :focus {
+//     outline: none;
+//     border: 2px solid var(--color-rose);
+// }  
+
+::selection {
+    background-color: var(--bg-color-lila);
+    color: var(--color-greyscale10);
+}
