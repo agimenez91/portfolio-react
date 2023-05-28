@@ -1,14 +1,15 @@
 import { Routes } from "react-router-dom"
 import { Route } from "react-router-dom"
 import "./globalStyles/GlobalStyle.scss"
-import Home from "./views/home"
-import Contact from "./views/contact"
+import Topbar from "./components/TopBar/Topbar"
+import Home from "./views/Home"
 import Project from "./views/Project"
+import Contact from "./views/contact"
 import Cookies from "./views/Cookies"
 import Legal from "./views/Legal"
 import Privacy from "./views/Privacy"
 import Error404 from "./views/Error404"
-import Topbar from "./components/TopBar/Topbar"
+
 
 
 function App() {
