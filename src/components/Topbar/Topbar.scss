@@ -1,93 +1,99 @@
 @import '../../globalStyles/tools';
 
 .topbar {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    position: fixed;
-    background-color: #f8f9fae3;
     @include paddingX();
+    height: 7rem;
+    background-color: #f8f9fad4;
+    position: fixed;
+    z-index: 3;
 
-
-    
-    @include MQ ($desktop) {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-
-    & p, .burger {
-        z-index: 3;
-    }
-
-}
-
-.burger {
-    &__nav {
-        position: absolute;
-        height: 100vh;
-        padding: 6rem 1.6rem;
-        background-color: #f8f9fae3;
-        transition: 0.2s ease-in-out;
-        flex-direction: column;
-        right: 0;
+    &__logo {
+        text-decoration: none;
+        &:hover {
+            color: inherit;
+        }
     }
 }
 
 .nav {
-    font-family: var(--typo-accent);
-    font-size: 1.6rem;
     list-style-type: none;
+    font-size: 1.6rem;
+    font-family: var(--typo-accent);
     text-align: right;
-    display: flex;
-    gap: 2.4rem;
-    z-index: 2;
-    @include paddingX();
+    position: relative;
 
-    & a {
+    @include MQ ($tablet) {
+        font-size: 1.8rem;
+    }
+
+    &__item a {
         text-decoration: none;
-        color: var(--color-greyscale10);
-        cursor: pointer;
+    }
 
-        &:hover {
-            color: var(--color-rose);
+    &__wrap {
+        @include MQ ($tablet) {
+            display: flex;
+            align-items: center;
+            gap: 3.2rem;
         }
     }
 
     &--desktop {
         display: none;
-    }
 
-    @include MQ ($tablet) {
-        font-size: 1.7rem;
-
-        &__wrap {
+        @include MQ ($tablet) {
             display: flex;
-            gap: 3.2rem;
             align-items: center;
-            flex-wrap: nowrap;
-        }
-
-        &--desktop {
-            display: flex;
-            padding: 0;
+            gap: 3.2rem;
         }
     }
 
-    
+    &__burger {
+        opacity: 0%;
+        transition: 0.3s ease-in;
+        position: absolute;
+        right: 0rem;
+        top: 7rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+        @include paddingX();
+        width: 100%;
+        height: 100vh;
+        background-color: #f8f9fad4;
+        pointer-events: none;
+    }
 
 }
 
-.active {
-    inset: 0;
+.active .nav__burger {
+    z-index: 3;
+    opacity: 100%;
+    pointer-events: all;
 }
 
 .copywright {
     position: absolute;
-    top: calc(100vh - 20rem);
-    transform: rotate(270deg);
-    display: none;
+    opacity: 0;
+}
+
+.active .copywright {
+    opacity: 100%;
+    top: 40rem;
+    left: -12rem;
+    rotate: 270deg;
+    transition: 0.3s ease-in-out;
+
+    @include MQ ($tablet) {
+        top: 50rem;
+        left: -8rem;
+    }
+
+    @include MQ ($desktop) {
+        left: 0;    }
 }

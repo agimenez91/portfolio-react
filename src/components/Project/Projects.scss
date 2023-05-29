@@ -1,0 +1,91 @@
+@import '../../globalStyles/tools';
+
+.projects {
+    @include paddingX();
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 2.4rem;
+    padding-top: 6rem;
+    padding-top: 10rem;
+    
+
+    @include MQ ($tablet) {
+        height: calc(100vh - 8rem);
+        padding-top: 0;
+        flex-wrap: wrap;
+        padding-top: 7rem;
+    }
+
+    &__img {
+        aspect-ratio: 4/2;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 20rem;
+        width: 100%;
+    }
+
+    & figure {
+        @include MQ ($tablet) {
+            width: 40%;
+        }
+    }
+
+    & .flex--row:first-child {
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        & h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        @include MQ ($tablet) {
+            width: 60%;
+            justify-content: start;
+        }
+    }
+}
+
+.item {
+    @include MQ ($tablet){
+        &1 {
+            order: 1;
+            width: 60%;
+        }
+        &2 {
+            order: 6;
+            width: 40%;
+        }
+        &3 {
+            order: 2;
+            width: 60%;
+            padding-right: 1.6rem;
+        }
+        &4 {
+            order: 7;
+            width: 40%;
+        }
+        &5 {
+            order: 3;
+            width: 60%;   
+        }
+        &6 {
+            order: 4;
+            width: 60%;
+        }
+        &7 {
+            order: 5;
+            width: 60%;
+        }
+    }
+
+    @include MQ ($desktop) {
+        &3 {
+            padding-right: 8rem;
+        }
+    }
+}
