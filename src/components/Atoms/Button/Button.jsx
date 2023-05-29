@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import './Button.scss';
 
 function Button({ content, type }) {
@@ -8,11 +7,6 @@ function Button({ content, type }) {
     </>
   );
 }
-
-Button.propTypes = {
-  content: PropTypes.string.isRequired,
-  type: PropTypes.string,
-};
 
 export default Button;
 
