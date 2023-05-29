@@ -26,6 +26,7 @@ function App() {
         <Route path='/legal' element={ <Legal /> } />
         <Route path='/privacy' element={ <Privacy /> } />
         <Route path='/404' element={ <Error404 /> } />
+        <Route path='*' element={ <Error404 /> } />
       </Routes>
     </>
   )

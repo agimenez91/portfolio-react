@@ -26,14 +26,15 @@ function Topbar() {
   return (
     <>
       <div className={`topbar ${isActive ? 'active' : ''}`}>
-        <p className="h6">Andrea Giménez</p>
-        <ul className={`nav burger__nav ${isActive ? 'active' : ''}`}>
+        <p className="h6"><Link to="/" className="topbar__logo">Andrea Giménez</Link></p>
+        <ul className={`nav nav__burger ${isActive ? 'active' : ''}`}>
           <li className="nav__item"><Link to="/" className="nav__item--link">Home</Link></li>
           <li className="nav__item"><Link to="/Project" className="nav__item--link">Projects</Link></li>
           <li className="nav__item"><Link to="/Contact" relative="/contact">Contact</Link></li>
-          <li className="nav__item"><Link to="/legal" className="nav__item--link">Legal Statement</Link></li>
+          <li className="nav__item"><Link to="/legal" className="nav__item--link">Legal Notice</Link></li>
           <li className="nav__item"><Link to="/privacy" className="nav__item--link">Privacy Policy</Link></li>
           <li className="nav__item"><Link to="/cookies" className="nav__item--link">Cookie Policy</Link></li>
+          <small className="small accent-font copywright">Andrea Giménez 2023 <span className="main-font">©</span> All Rights Reserved.</small>
         </ul>
         <div className="nav__wrap">
           <ul className="nav nav--desktop">
@@ -49,7 +50,6 @@ function Topbar() {
             </svg>
           </div>
         </div>
-        <small className="small accent-font copywright">Andrea Giménez 2023 <span className="main-font">©</span> All Rights Reserved.</small>
       </div>
     </>
   );

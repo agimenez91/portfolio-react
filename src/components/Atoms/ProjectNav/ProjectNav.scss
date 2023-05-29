@@ -1,0 +1,38 @@
+.project-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--color-greyscale8);
+    height: 8rem;
+
+    & p {
+        margin: 0;
+    }
+
+    &__arrow {
+        height: 1.2rem;
+        width: auto;
+        
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.6rem;
+    }
+
+    & a {
+        text-decoration: none;
+        color: var(--color-greyscale8);
+
+        &:hover {
+            color: var(--color-rose);
+        }
+
+        &:hover p {
+            color: var(--color-rose);
+        }
+    }
+}

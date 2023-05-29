@@ -2,7 +2,8 @@
 
 .cover {
     @include paddingX();
-    height: 80vh;
+    padding-top: 7rem;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

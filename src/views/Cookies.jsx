@@ -2,7 +2,9 @@ function Cookies() {
 
     return (
       <>
-        <h1>hola soy Cookies</h1>
+        <div className="legal">
+          <h1 className="display">Cookie <span className="wavyline">Policy</span></h1>
+        </div>
       </>
     )
   }

@@ -1,8 +1,12 @@
+import ProjectNav from "../components/Atoms/ProjectNav/ProjectNav"
+import Projects from "../components/Project/Projects"
+
 function Project() {
 
     return (
       <>
-        <h1>hola soy Project</h1>
+        <Projects />
+        <ProjectNav />
       </>
     )
   }

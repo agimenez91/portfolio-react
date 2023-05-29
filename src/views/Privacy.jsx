@@ -2,7 +2,9 @@ function Privacy() {
 
     return (
       <>
-        <h1>hola soy Privacy</h1>
+        <div className="legal">
+          <h1 className="display">Privacy <span className="wavyline">Policy</span></h1>
+        </div>
       </>
     )
   }
