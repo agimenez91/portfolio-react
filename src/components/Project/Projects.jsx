@@ -1,5 +1,5 @@
 import Button from "../Atoms/Button/Button"
-import Icon from "../Atoms/Icons/icon"
+import Icon from "../Atoms/Icons/Icon"
 import "./Projects.scss"
 
 function Projects() {
