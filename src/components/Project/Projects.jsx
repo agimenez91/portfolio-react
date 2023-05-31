@@ -1,8 +1,12 @@
+import { useContext } from "react"
 import Button from "../Atoms/Button/Button"
 import Icon from "../Atoms/Icons/Icon"
 import "./ProjectsGrid.scss"
+import { projectContext } from "../../App";
 
 function Projects() {
+
+  const {projects} = useContext (projectContext);
 
     return (
       <>

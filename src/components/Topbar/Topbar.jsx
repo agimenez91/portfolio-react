@@ -26,7 +26,7 @@ function Topbar() {
 
   return (
     <>
-    <div className={`topbar ${location.pathname === '/404' ? 'nobg' : ''} ${isActive ? 'active' : ''}`}>
+    <div className={`topbar ${isActive ? 'active' : ''}`}>
         <p className="h6"><Link to="/" className="topbar__logo">Andrea Giménez</Link></p>
         <ul className={`nav nav__burger ${isActive ? 'active' : ''}`}>
           <li className="nav__item"><Link to="/" className="nav__item--link">Home</Link></li>

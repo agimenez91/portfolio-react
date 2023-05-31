@@ -8,7 +8,6 @@
     width: 100%;
     @include paddingX();
     height: 7rem;
-    background-color: #f8f9fad4;
     position: fixed;
     z-index: 3;
 
@@ -32,7 +31,7 @@
     }
 
     &__item a {
-        text-decoration: none;
+        text-decoration: none
     }
 
     &__wrap {
@@ -96,8 +95,4 @@
 
     @include MQ ($desktop) {
         left: 0;    }
-}
-
-.nobg {
-    background-color: transparent;
 }

@@ -1,4 +1,5 @@
 import Button from "../components/Atoms/Button/Button"
+import Icon from "../components/Atoms/Icons/Icon"
 
 function Contact() {
 
@@ -22,8 +23,11 @@ function Contact() {
           <div className="flex--column">
             <h2 className="h6">Or take a look:</h2>
             <div className="flex--row">
-              <Button content="LinkedIn"/><Button content="GitHub"/><Button content="Figma"/>
-              <Button content="Codepen"/><Button content="Twitter" icon={<icon/>}/>
+              <Button content="LinkedIn" icon={<Icon/>}/>
+              <Button content="GitHub" icon={<Icon/>}/>
+              <Button content="Figma" icon={<Icon/>}/>
+              <Button content="Codepen" icon={<Icon/>}/>
+              <Button content="Twitter" icon={<Icon/>}/>
             </div>
           </div>
         </div>

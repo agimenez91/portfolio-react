@@ -10,6 +10,7 @@
     position: relative;
     aspect-ratio: 4/2;
     justify-content: space-evenly;
+    mix-blend-mode: multiply;
 
     & h2 {
         color: var(--color-pearl);
@@ -49,6 +50,7 @@
         z-index: 1;
         transition: 0.3s ease-in-out;
         opacity: 100%;
+        mix-blend-mode: multiply;
     }
 
     &:hover .projectCard__content {

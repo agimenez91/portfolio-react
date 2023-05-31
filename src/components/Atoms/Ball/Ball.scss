@@ -1,13 +1,14 @@
 .ball {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     background: linear-gradient(158.63deg, #A7B9F9 -5.25%, #BDBBFA 28.3%, #FDCECE 108.22%);
-    filter: blur(25px);
+    filter: blur(45px);
     border-radius: 100%;
     position: absolute;
     pointer-events: none; 
     transition: transform 0.4s ease; 
     transform: translate(-50%, -50%);
+    z-index: -3;
 
 
     &404 {
@@ -29,9 +30,9 @@
       transform: rotate(0deg) scale(1);
     }
     50% {
-      transform: scale(0.5);
+      transform: rotate(360deg) scale(0.5);
     }
     100% {
-        transform: rotate(360deg) scale(1);
+        transform: rotate(0deg) scale(1);
     }
 }
