@@ -12,8 +12,7 @@
 
     &__arrow {
         height: 1.2rem;
-        width: auto;
-        
+        width: auto;        
     }
 
     &__link {
@@ -28,11 +27,13 @@
         color: var(--color-greyscale8);
 
         &:hover {
-            color: var(--color-rose);
+            color: var(--color-rose);    
+            transition: 0.3s ease-in-out;
         }
 
         &:hover p {
-            color: var(--color-rose);
+            color: var(--color-rose);    
+            transition: 0.3s ease-in-out;
         }
     }
 }

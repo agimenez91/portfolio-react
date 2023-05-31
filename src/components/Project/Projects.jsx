@@ -1,6 +1,6 @@
 import Button from "../Atoms/Button/Button"
 import Icon from "../Atoms/Icons/Icon"
-import "./Projects.scss"
+import "./ProjectsGrid.scss"
 
 function Projects() {
 
@@ -27,13 +27,15 @@ function Projects() {
               <Icon/><Icon/><Icon/>
             </div>
           </div>
-          <div className="flex--column item6">
-            <h2 className="h6">Role:</h2>
-            <p>Bla bla</p>
-          </div>
-          <div className="flex--column item7">
-            <h2 className="h6">Year:</h2>
-            <p>Bla bla</p>
+          <div className="flex--row item6">
+            <div className="flex--column">
+              <h2 className="h6">Role:</h2>
+              <p>Bla bla</p>
+            </div>
+            <div className="flex--column">
+              <h2 className="h6">Year:</h2>
+              <p>Bla bla</p>
+            </div>
           </div>
         </div>
       </>

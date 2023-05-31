@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "./Topbar.scss";
 
 function Topbar() {
+  let location = useLocation();
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
@@ -25,7 +26,7 @@ function Topbar() {
 
   return (
     <>
-      <div className={`topbar ${isActive ? 'active' : ''}`}>
+    <div className={`topbar ${location.pathname === '/404' ? 'nobg' : ''} ${isActive ? 'active' : ''}`}>
         <p className="h6"><Link to="/" className="topbar__logo">Andrea Giménez</Link></p>
         <ul className={`nav nav__burger ${isActive ? 'active' : ''}`}>
           <li className="nav__item"><Link to="/" className="nav__item--link">Home</Link></li>

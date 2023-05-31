@@ -1,0 +1,12 @@
+.typeAnimation {
+    animation: type 4s steps(100, end);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+  
+  @keyframes type{
+    0%{width: 0;}
+    40%{width: 0;}
+    100%{ width: 100; } 
+} 

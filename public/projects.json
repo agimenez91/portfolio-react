@@ -1,0 +1,86 @@
+[
+    {
+        "id": "kumis",
+        "title": "Kumis Digital",
+        "tagline": "Web development agency for veterinarians.",
+        "description": "Complete digital project creation, including concept development, branding, graphic design, web design, and development. The website was built using HTML, CSS, and JavaScript, and later customized with PHP to create a custom template in WordPress.",
+        "technologies": ["Wordpress", "PHP", "CSS", "JavaScript", "HTML", "Figma"],
+        "image": "https://kumis.jpg",
+        "links": [
+            {
+                "url": "https://github.com/agimenez91/AndreaG_ProyectBeta.git",
+                "name": "GitHub",
+                "icon": "github"
+            },
+            {
+                "url": "https://www.figma.com/file/gSyQJOmOycmuzY9evBLNTL/Andrea-Gim%C3%A9nez---Project-Beta?type=design&node-id=504%3A2&t=fqo44ftQDJOolrwU-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://kumis.digital",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2023",
+        "role": "Project creator, web designer, and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/kumis"
+    },
+    {
+        "id": "about",
+        "title": "About Page",
+        "tagline": "A project about myself",
+        "description": "This project was my very first website that I coded entirely on my own. I utilized HTML, CSS, and JavaScript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
+        "technologies": ["CSS", "JavaScript", "HTML", "Figma"],
+        "image": "https://about.jpg",
+        "links": [
+            {
+                "url": "https://github.com/agimenez91/Project-Alpha_Andrea-Gimenez.git",
+                "name": "GitHub",
+                "icon": "github"
+            },
+            {
+                "url": "https://www.figma.com/file/zjn4yKIlCD7Iqui58pfiia/Andrea-Gim%C3%A9nez---Project-Alpha?type=design&node-id=510%3A13&t=1k8n7BBVywACn8TA-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://andreag-about.netlify.app/",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2023",
+        "role": "Project creator, web designer, and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/about"
+    },
+    {
+        "id": "portfolio",
+        "title": "Portfolio",
+        "tagline": "The project behind this portfolio",
+        "description": "This project was my very first website that I coded entirely on my own. I utilized HTML, CSS, and JavaScript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
+        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML", "Figma"],
+        "image": "https://portfolio.jpg",
+        "links": [
+            {
+                "url": "https://github.com/agimenez91/portfolio-react.git",
+                "name": "GitHub",
+                "icon": "github"
+            },
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://andreagimenez.dev",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2023",
+        "role": "Project creator, web designer, and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/portfolio"
+    }
+]

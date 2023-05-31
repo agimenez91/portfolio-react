@@ -22,8 +22,8 @@ function Contact() {
           <div className="flex--column">
             <h2 className="h6">Or take a look:</h2>
             <div className="flex--row">
-              <Button content="Link"/><Button content="Link"/><Button content="Link"/>
-              <Button content="Link"/><Button content="Link"/><Button content="Link"/>
+              <Button content="LinkedIn"/><Button content="GitHub"/><Button content="Figma"/>
+              <Button content="Codepen"/><Button content="Twitter" icon={<icon/>}/>
             </div>
           </div>
         </div>

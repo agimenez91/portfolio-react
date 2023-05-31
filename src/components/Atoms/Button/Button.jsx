@@ -1,9 +1,9 @@
 import './Button.scss';
 
-function Button({ content, type }) {
+function Button(props) {
   return (
     <>
-      <button className={type}>{content}</button>
+      <button className={props.type}>{props.content}{props.icon}</button>
     </>
   );
 }

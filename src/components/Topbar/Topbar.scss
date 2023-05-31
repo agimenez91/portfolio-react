@@ -87,7 +87,7 @@
     top: 40rem;
     left: -12rem;
     rotate: 270deg;
-    transition: 0.3s ease-in-out;
+    transition: none;
 
     @include MQ ($tablet) {
         top: 50rem;
@@ -96,4 +96,8 @@
 
     @include MQ ($desktop) {
         left: 0;    }
+}
+
+.nobg {
+    background-color: transparent;
 }

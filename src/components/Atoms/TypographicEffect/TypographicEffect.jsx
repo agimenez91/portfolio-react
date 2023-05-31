@@ -1,3 +1,4 @@
+import './TypographicEffect.scss';
 import React, { useState, useEffect } from 'react';
 
 const TypographicEffect = () => {
@@ -17,16 +18,13 @@ const TypographicEffect = () => {
 
   return (
     <div>
+      <h1 className="display">Hi!<br /></h1>
       {displaySentence ? (
         <h1 className="display">
-            Hi!
-            <br />
             My name is <span className="wavyline">Andrea</span>
         </h1>
       ) : (
         <h1 className="display" onClick={resetSentence}>
-            Hi!
-            <br />
             I'm <span className="wavyline">frontend</span> developer
         </h1>
       )}

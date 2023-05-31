@@ -1,4 +1,4 @@
-import { Routes } from "react-router-dom"
+import { Navigate, Routes, useLocation } from "react-router-dom"
 import { Route } from "react-router-dom"
 import "./globalStyles/GlobalStyle.scss"
 import Home from "./views/Home"
@@ -26,7 +26,7 @@ function App() {
         <Route path='/legal' element={ <Legal /> } />
         <Route path='/privacy' element={ <Privacy /> } />
         <Route path='/404' element={ <Error404 /> } />
-        <Route path='*' element={ <Error404 /> } />
+        <Route path='*' element={<Navigate to='/404' />} />
       </Routes>
     </>
   )
