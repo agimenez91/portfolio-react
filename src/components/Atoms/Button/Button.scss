@@ -1,22 +1,28 @@
+@import '../../../globalStyles/tools';
+
 button, .btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0.8rem 1.6rem;
-    gap: 0.8rem;
-    border: 2px solid var(--color-greyscale8);
-    color: var(--color-greyscale8);
+    padding: var(--unit-8) var(--unit-16);
+    gap: var(--gap-S);
+    border: 2px solid var(--color-greyscale9);
+    color: var(--color-greyscale9);
     font-family: var(--typo-accent);
-    font-size: 1.6rem;
+    font-size: var(--font-size-mobile);
     border-radius: 50px;
     background-color: transparent;
     cursor: pointer;
     transition: 0.2s ease-in-out;
     font-weight: bold;
 
+    @include MQ ($tablet) {
+        font-size: var(--font-size-desktop);
+    }
+
     &:hover {
-        background-color: var(--color-greyscale8);
+        background-color: var(--color-greyscale9);
         color: var(--color-white);
     }
 
@@ -26,13 +32,10 @@ button, .btn {
     }
 
     &:focus {
+        outline: none;
         border-color: var(--color-blue);
     }
-}
 
-button:focus {
-    outline: none;
-    // Otros estilos que deseas restablecer
 }
 
 .btn--accent {

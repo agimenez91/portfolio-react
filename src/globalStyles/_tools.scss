@@ -21,13 +21,13 @@ $map-layers: (
 }
 
 @mixin paddingX {
-    padding: 0 1.6rem;
+    padding: 0 var(--unit-16);
 
     @include MQ($tablet) {
-        padding: 0 8rem;
+        padding: 0 var(--unit-80);
     }
 
     @include MQ($desktop) {
-        padding: 0 16rem;
+        padding: 0 var(--unit-160);
     }
 }

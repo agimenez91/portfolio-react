@@ -35,30 +35,82 @@
 
     //Color applications
     //Backgrounds:
-    --bg-color-blue:                     var(--color-blue);
-    --bg-color-lila:                     var(--color-lila);
-    --bg-color-red:                      var(--color-red);
-    --bg-color-rose:                     var(--color-rose);
-    --bg-color-green:                    var(--color-green);
-    --bg-color-mint:                     var(--color-mint);
-    --bg-color-greyscale1:               var(--color-greyscale1);
-    --bg-color-greyscale2:               var(--color-greyscale2);
-    --bg-color-greyscale3:               var(--color-greyscale3);
-    --bg-color-greyscale4:               var(--color-greyscale4);
-    --bg-color-greyscale5:               var(--color-greyscale5);
-    --bg-color-greyscale6:               var(--color-greyscale6);
-    --bg-color-greyscale7:               var(--color-greyscale7);
-    --bg-color-greyscale8:               var(--color-greyscale8);
-    --bg-color-greyscale9:               var(--color-greyscale9);
-    --bg-color-greyscale10:              var(--color-greyscale10);
-    --bg-color-white:                    var(--color-white);
-    --bg-color-black:                    var(--color-black);
-    --bg-color-pearl:                    var(--color-pearl);
-    --bg-color-yellow:                   var(--color-yellow);
+    --bg-color-blue:                  var(--color-blue);
+    --bg-color-lila:                  var(--color-lila);
+    --bg-color-red:                   var(--color-red);
+    --bg-color-rose:                  var(--color-rose);
+    --bg-color-green:                 var(--color-green);
+    --bg-color-mint:                  var(--color-mint);
+    --bg-color-greyscale1:            var(--color-greyscale1);
+    --bg-color-greyscale2:            var(--color-greyscale2);
+    --bg-color-greyscale3:            var(--color-greyscale3);
+    --bg-color-greyscale4:            var(--color-greyscale4);
+    --bg-color-greyscale5:            var(--color-greyscale5);
+    --bg-color-greyscale6:            var(--color-greyscale6);
+    --bg-color-greyscale7:            var(--color-greyscale7);
+    --bg-color-greyscale8:            var(--color-greyscale8);
+    --bg-color-greyscale9:            var(--color-greyscale9);
+    --bg-color-greyscale10:           var(--color-greyscale10);
+    --bg-color-white:                 var(--color-white);
+    --bg-color-black:                 var(--color-black);
+    --bg-color-pearl:                 var(--color-pearl);
+    --bg-color-yellow:                var(--color-yellow);
 
+    //Units:
+    --unit-6:                          0.6rem;
+    --unit-8:                          0.8rem;
+    --unit-10:                           1rem;
+    --unit-12:                         1.2rem;
+    --unit-14:                         1.4rem;
+    --unit-16:                         1.6rem;
+    --unit-18:                         1.8rem;
+    --unit-20:                           2rem;
+    --unit-24:                         2.4rem;
+    --unit-28:                         2.8rem;
+    --unit-32:                         3.2rem;
+    --unit-36:                         3.6rem;
+    --unit-40:                           4rem;
+    --unit-48:                         4.8rem;
+    --unit-56:                         5.6rem;
+    --unit-64:                         6.4rem;
+    --unit-72:                         7.2rem;
+    --unit-80:                           8rem;
+    --unit-128:                       12.8rem;
+    --unit-160:                         16rem;
+    --unit-208:                       20.8rem;
+    --unit-256:                       25.6rem;
 
-    --typo-main:                  'Helvetica Light Regular', arial, sans-serif;
-    --typo-accent:                'Heming Variable', ui-monospace,monospace;
+    //Typography:
+    --typo-main:                     'Helvetica Light Regular', arial, sans-serif;
+    --typo-accent:                   'Heming Variable', ui-monospace,monospace;
+
+    --line-height-small:               1.2em;
+    --line-height-big:                 1.5em;
+    --letter-spacing-L:               0.2rem;
+    --letter-spacing-XL:              0.4rem;
+
+    --font-size-mobile:               var(--unit-16);
+    --font-size-desktop:              var(--unit-18);
+    --font-size-mobileS:              var(--unit-14);
+    --font-size-desktopS:             var(--unit-16);
+    --font-size-mobileL:              var(--unit-18);
+    --font-size-desktopL:             var(--unit-20);
+    --font-size-displayS:             4.7rem; 
+    --font-size-displayL:             6.9rem; 
+
+    //Topbar:
+    --topbar-height:                  7rem;
+
+    //Gaps:
+    --gap-XS:                         var(--unit-6);
+    --gap-S:                          var(--unit-8);
+    --gap-M:                          var(--unit-16);
+    --gap-L:                          var(--unit-24);
+    --gap-XL:                         var(--unit-32);
+
+    --gap-grid-S:                     var(--unit-40);
+    --gap-grid-M:                     var(--unit-80);
+    --gap-grid-L:                     var(--unit-128);
 }
 
 @font-face {
@@ -96,6 +148,8 @@ html {
     margin: auto;
     scroll-behavior: smooth;
     background-color: var(--bg-color-pearl);
+    max-width: 100%;
+    overflow-x: hidden;
 }  
   
 // :focus {
@@ -116,4 +170,8 @@ figure {
     border-bottom: 2px solid var(--bg-color-greyscale7);
     border-top: 2px solid var(--bg-color-greyscale7);
     width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

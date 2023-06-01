@@ -21,18 +21,18 @@
     
     &--row {
     display: flex;
-    gap: 1.6rem;
+    gap: var(--gap-M);
     flex-wrap: wrap;
 
         @include MQ ($tablet) {
-            gap: 2.4rem;
+            gap: var(--gap-L);
         }
     }
 
     &--column {
         display: flex;
         flex-direction: column;
-        gap: 0.8rem;
+        gap: var(--gap-S);
     }
 }
 
@@ -42,23 +42,18 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 2.4rem;
+    gap: var(--gap-L);
     height: 100vh;
 }
 
 .legal {
     @include paddingX();
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: var(--topbar-height);
+    padding-bottom: var(--topbar-height);
 
     @include MQ ($tablet) {
-        padding-top: 8rem;
-        padding-bottom: 8rem;
-    }
-
-    @include MQ ($desktop) {
-        padding-top: 10rem;
-        padding-bottom: 10rem;
+        padding-top: var(--unit-80);
+        padding-bottom: var(--unit-80);
     }
 
 }

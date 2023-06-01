@@ -2,7 +2,7 @@
 
 .cover {
     @include paddingX();
-    padding-top: 7rem;
+    padding-top: var(--topbar-height);
     height: 85vh;
     display: flex;
     flex-direction: column;

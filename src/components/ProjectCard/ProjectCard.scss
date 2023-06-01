@@ -2,7 +2,7 @@
     background: url('https://placekeanu.com/250/g');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 4rem 3.2rem;
+    padding: var(--unit-40) var(--unit-32);
     color: var(--color-pearl);
     fill: var(--color-pearl);
     display: flex;
@@ -12,11 +12,11 @@
     justify-content: space-evenly;
     mix-blend-mode: multiply;
 
-    & h2 {
+    h2 {
         color: var(--color-pearl);
         margin: 0;
         padding: 0;
-        line-height: 1.2em;
+        line-height: var(--line-height-small);
     }
 
     &__content {
@@ -29,7 +29,7 @@
     }
 
     &__info {
-        padding-bottom: 4rem;
+        padding-bottom: var(--unit-40);
     }
 
     &__link {
@@ -40,7 +40,7 @@
 
     &__icons {
         display: flex;
-        gap: 1.6rem;
+        gap: var(--gap-M);
     }
 
     &:hover .projectCard__overlay {

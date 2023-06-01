@@ -6,21 +6,21 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 2.4rem;
-    padding-top: 7rem;
+    gap: var(--gap-L);
+    padding-top: var(--topbar-height);
 
     @include MQ ($tablet) {
-        padding-top: 7rem;
+        padding-top: var(--topbar-height);
         display: grid;
         grid-template-columns: 3fr;
-        grid-column-gap: 4rem;
+        grid-column-gap: var(--gap-grid-S);
         height: calc(100vh - 8rem);
         align-content: center;
         justify-items: start;
     }
 
     @include MQ ($desktop){
-        grid-column-gap: 8rem;
+        grid-column-gap: var(--gap-grid-M);
     }
 
     &__img {
@@ -32,7 +32,7 @@
         mix-blend-mode: multiply;
     }
 
-    & .flex--row:first-child {
+    .flex--row:first-child {
         justify-content: space-between;
         width: 100%;
         align-items: center;
@@ -42,7 +42,7 @@
             justify-content: start;
         }
 
-        & h1 {
+        h1 {
             margin: 0;
             padding: 0;
         }
@@ -74,10 +74,10 @@
 
     &6 {
         grid-row: 4;
-        gap: 8rem;
+        gap: var(--gap-grid-M);
 
         @include MQ ($desktop) {
-            gap: 12rem;
+            gap: var(--gap-grid-L);
         }
     }
 

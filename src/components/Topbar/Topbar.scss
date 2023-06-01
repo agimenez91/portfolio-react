@@ -7,7 +7,7 @@
     align-items: center;
     width: 100%;
     @include paddingX();
-    height: 7rem;
+    height: var(--topbar-height);
     position: fixed;
     z-index: 3;
 
@@ -17,17 +17,23 @@
             color: inherit;
         }
     }
+
+    &.active {
+        background-color: #f8f9fad4;
+        transition: 0.3s ease-in-out;
+    }
+
 }
 
 .nav {
     list-style-type: none;
-    font-size: 1.6rem;
+    font-size: var(--font-size-mobile);
     font-family: var(--typo-accent);
     text-align: right;
     position: relative;
 
     @include MQ ($tablet) {
-        font-size: 1.8rem;
+        font-size: var(--font-size-desktop);
     }
 
     &__item a {
@@ -38,7 +44,7 @@
         @include MQ ($tablet) {
             display: flex;
             align-items: center;
-            gap: 3.2rem;
+            gap: var(--gap-XL);
         }
     }
 
@@ -48,7 +54,7 @@
         @include MQ ($tablet) {
             display: flex;
             align-items: center;
-            gap: 3.2rem;
+            gap: var(--gap-XL);
         }
     }
 
@@ -57,10 +63,10 @@
         transition: 0.3s ease-in;
         position: absolute;
         right: 0rem;
-        top: 7rem;
+        top: var(--topbar-height);
         display: flex;
         flex-direction: column;
-        gap: 1.6rem;
+        gap: var(--gap-M);
         @include paddingX();
         width: 100%;
         height: 100vh;
@@ -70,29 +76,34 @@
 
 }
 
-.active .nav__burger {
-    z-index: 3;
-    opacity: 100%;
-    pointer-events: all;
-}
-
 .copywright {
     position: absolute;
     opacity: 0;
 }
 
-.active .copywright {
-    opacity: 100%;
-    top: 40rem;
-    left: -12rem;
-    rotate: 270deg;
-    transition: none;
-
-    @include MQ ($tablet) {
-        top: 50rem;
-        left: -8rem;
+.active {
+    .nav__burger {
+        z-index: 3;
+        opacity: 100%;
+        pointer-events: all;
     }
 
-    @include MQ ($desktop) {
-        left: 0;    }
+    .copywright {
+        opacity: 100%;
+        top: 40rem;
+        left: -12rem;
+        rotate: 270deg;
+        transition: none;
+    
+        @include MQ ($tablet) {
+            top: 50rem;
+            left: -8rem;
+        }
+    
+        @include MQ ($desktop) {
+            left: 0;    }
+    }
 }
+
+
+
