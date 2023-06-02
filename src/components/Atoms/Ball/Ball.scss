@@ -10,7 +10,7 @@
   transform: translate(-50%, -50%);
   z-index: -3;
   overflow: hidden;
-  // animation: rotateball 24s infinite;
+  animation: rotateball 24s infinite;
 
   &404 {
     position: absolute;
@@ -39,26 +39,26 @@
 }
 
 @keyframes rotateball {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(360deg);
-  }
-  50% {
-      transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-
   // 0% {
   //   transform: rotate(0deg);
   // }
-  // 50% {
+  // 25% {
   //   transform: rotate(360deg);
   // }
-  // 100% {
+  // 50% {
   //     transform: rotate(0deg);
   // }
+  // 100% {
+  //   transform: rotate(360deg);
+  // }
+
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
 }

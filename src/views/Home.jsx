@@ -7,8 +7,8 @@ import ProjectCard from "../components/ProjectCard/ProjectCard"
 function Home() {
   const {projects} = useContext (projectContext);
 
-
-    return (
+  
+  return (
       <>
         <Cover />
         <Filter />
