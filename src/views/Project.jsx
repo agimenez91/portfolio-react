@@ -10,7 +10,7 @@ function Project() {
   const {projects} = useContext (projectContext);
   const params = useParams();
   const listado = projects
-  const selectedProject = listado.find((projects) => projects.id === params.projectId);
+  const selectedProject = listado.find((project) => projects.id === params.projectId);
 
   console.log (selectedProject);
 
