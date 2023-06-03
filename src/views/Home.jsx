@@ -13,12 +13,14 @@ function Home() {
         <Cover />
         <Filter />
         <div className="col3">
-          <ProjectCard/>
-          <ProjectCard/>
-          <ProjectCard/>          
-          <ProjectCard/>          
-          <ProjectCard/>
-          <ProjectCard/>
+          {projects.map(project => (
+            <ProjectCard
+              key={project.id}
+              title={project.title}
+              tagline={project.tagline}
+              image={project.image}
+            />
+          ))}
         </div>
       </>
     )

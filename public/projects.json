@@ -5,7 +5,7 @@
         "tagline": "Web development agency for veterinarians.",
         "description": "Complete digital project creation, including concept development, branding, graphic design, web design, and development. The website was built using HTML, CSS, and JavaScript, and later customized with PHP to create a custom template in WordPress.",
         "technologies": ["Wordpress", "PHP", "CSS", "JavaScript", "HTML", "Figma"],
-        "image": "https://kumis.jpg",
+        "image": "./img/kumis.webp",
         "links": [
             {
                 "url": "https://github.com/agimenez91/AndreaG_ProyectBeta.git",
@@ -33,7 +33,7 @@
         "tagline": "A project about myself",
         "description": "This project was my very first website that I coded entirely on my own. I utilized HTML, CSS, and JavaScript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
         "technologies": ["CSS", "JavaScript", "HTML", "Figma"],
-        "image": "https://about.jpg",
+        "image": "./img/about.webp",
         "links": [
             {
                 "url": "https://github.com/agimenez91/Project-Alpha_Andrea-Gimenez.git",
@@ -61,7 +61,7 @@
         "tagline": "The project behind this portfolio",
         "description": "This project was my very first website that I coded entirely on my own. I utilized HTML, CSS, and JavaScript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
         "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML", "Figma"],
-        "image": "https://portfolio.jpg",
+        "image": "./img/portfolio.webp",
         "links": [
             {
                 "url": "https://github.com/agimenez91/portfolio-react.git",
@@ -82,5 +82,189 @@
         "year": "2023",
         "role": "Project creator, web designer, and developer.",
         "projectUrl": "https://andreagimenez.dev/projects/portfolio"
+    },
+    {
+        "id": "occidental",
+        "title": "Occidental Resources",
+        "tagline": "Branding, web design and web development for a company in the commodities sector",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
+        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
+        "image": "./img/occidentalresources.webp",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://occidentalresources.com",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2022",
+        "role": "Designer and web developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/occidental"
+    },
+    {
+        "id": "activa",
+        "title": "Activa Freelancer",
+        "tagline": "Web design and web development for an accountant",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
+        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
+        "image": "./img/activa.webp",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://activafreelancer.com/",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2022",
+        "role": "Web designer and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/activa"
+    },
+    {
+        "id": "beautypro",
+        "title": "Beauty Pro",
+        "tagline": "Project in course",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
+        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
+        "image": "./img/beautypro.webp",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://beautyprogf.com/",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2023",
+        "role": "Web designer and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/beautypro"
+    },
+    {
+        "id": "sanjose",
+        "title": "Tanatorio San José",
+        "tagline": "Web design and development for Tanatorio San José",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
+        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
+        "image": "./img/sanjose.webp",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://tanatoriosanjose.net/",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2022",
+        "role": "Web designer and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/sanjose"
+    },
+    {
+        "id": "iovoip",
+        "title": "IO VoIP",
+        "tagline": "Web design and development for a cloud communications company",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
+        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
+        "image": "./img/iovoip.webp",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://iovoip.com/",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2023",
+        "role": "Web designer and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/iovoip"
+    },
+    {
+        "id": "logixcare",
+        "title": "LogixCare LLC",
+        "tagline": "Web design and development for an IT Company",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
+        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
+        "image": "./img/logixcare.webp",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://logixcare.com/",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2020",
+        "role": "Web designer and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/logixcare"
+    },
+    {
+        "id": "carysfort",
+        "title": "Carysfort Group LLC.",
+        "tagline": "Web design and development for Carysfort Group",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
+        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
+        "image": "./img/carysfort.webp",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://carysfortgroupllc.com/home",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2021",
+        "role": "Web designer and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/carysfort"
+    },
+    {
+        "id": "tarich",
+        "title": "Tarich Law Firm",
+        "tagline": "Web design and development for a law firm",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
+        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
+        "image": "./img/tarichlaw.webp",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://tarichlaw.com/",
+                "name": "Go to site",
+                "icon": "site"
+            }
+        ],
+        "year": "2022",
+        "role": "Web designer and developer.",
+        "projectUrl": "https://andreagimenez.dev/projects/tarich"
     }
 ]

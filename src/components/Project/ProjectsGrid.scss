@@ -30,6 +30,14 @@
         min-height: 20rem;
         width: 100%;
         mix-blend-mode: multiply;
+
+        @include MQ ($tablet) {
+            max-width: 200px;
+        }
+
+        @include MQ ($tablet) {
+            max-width: 400px;
+        }
     }
 
     .flex--row:first-child {

@@ -1,24 +1,20 @@
-import { useContext } from "react"
 import Button from "../Atoms/Button/Button"
 import Icon from "../Atoms/Icons/Icon"
 import "./ProjectsGrid.scss"
-import { projectContext } from "../../App";
 
-function Projects() {
-
-  const {projects} = useContext (projectContext);
+function Projects(props) {
 
     return (
       <>
         <div className="projects">
           <div className="flex--row item1">
-            <h1>Project Name</h1>
-            <Button type="btn--accent" content={<Icon/>}/>
+            <h1>{props.title}</h1>
+            <Button type="btn--accent" content={<Icon name="otra" />}/>
           </div>
           <figure className="item2">
-            <img className="projects__img" src="https://placekeanu.com/350/250g" alt="" />
+            <img className="projects__img" src={props.image} alt={props.title} />
           </figure>
-          <p className="item3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis recusandae illum dicta. Quod reiciendis dolorum iste dolor qui quisquam? Consequuntur iste eum esse ducimus quae earum excepturi debitis ex veritatis!</p>
+          <p className="item3">{props.description}</p>
           <div className="flex--column item4">
             <h2 className="h6">Links:</h2>
             <div className="flex--row">
@@ -34,11 +30,11 @@ function Projects() {
           <div className="flex--row item6">
             <div className="flex--column">
               <h2 className="h6">Role:</h2>
-              <p>Bla bla</p>
+              <p>{props.role}</p>
             </div>
             <div className="flex--column">
               <h2 className="h6">Year:</h2>
-              <p>Bla bla</p>
+              <p>{props.year}</p>
             </div>
           </div>
         </div>
