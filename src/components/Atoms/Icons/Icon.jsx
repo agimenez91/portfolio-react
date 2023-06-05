@@ -6,6 +6,7 @@ const Icon = (props) => {
 
   return (
     <>
+    {props.children}
     </>
   );
 };

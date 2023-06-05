@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Button from "../Atoms/Button/Button"
 import Icon from "../Atoms/Icons/Icon"
 import "./ProjectsGrid.scss"
@@ -9,7 +10,9 @@ function Projects(props) {
         <div className="projects">
           <div className="flex--row item1">
             <h1>{props.title}</h1>
-            <Button type="btn--accent" content={<Icon name="otra" />}/>
+            <Link to={props.projectUrl}>
+              <Button type="btn btn--accent" content={<Icon name="salir" />}></Button>
+            </Link>
           </div>
           <figure className="item2">
             <img className="projects__img" src={props.image} alt={props.title} />
@@ -18,7 +21,7 @@ function Projects(props) {
           <div className="flex--column item4">
             <h2 className="h6">Links:</h2>
             <div className="flex--row">
-              <Button content="Figma"/><Button content="Figma"/><Button content="Figma"/>
+            {props.links?.map(links => <a href={links?.url} target="_blank"><Button content={links?.name}/></a>)}
             </div>
           </div>
           <div className="flex--column item5">

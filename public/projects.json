@@ -25,11 +25,11 @@
         ],
         "year": "2023",
         "role": "Project creator, web designer, and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/kumis"
+        "projectUrl": "/project/kumis"
     },
     {
         "id": "about",
-        "title": "About Page",
+        "title": "About",
         "tagline": "A project about myself",
         "description": "This project was my very first website that I coded entirely on my own. I utilized HTML, CSS, and JavaScript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
         "technologies": ["CSS", "JavaScript", "HTML", "Figma"],
@@ -53,7 +53,7 @@
         ],
         "year": "2023",
         "role": "Project creator, web designer, and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/about"
+        "projectUrl": "/project/about"
     },
     {
         "id": "portfolio",
@@ -81,7 +81,7 @@
         ],
         "year": "2023",
         "role": "Project creator, web designer, and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/portfolio"
+        "projectUrl": "/project/portfolio"
     },
     {
         "id": "occidental",
@@ -104,7 +104,7 @@
         ],
         "year": "2022",
         "role": "Designer and web developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/occidental"
+        "projectUrl": "/project/occidental"
     },
     {
         "id": "activa",
@@ -127,7 +127,7 @@
         ],
         "year": "2022",
         "role": "Web designer and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/activa"
+        "projectUrl": "/project/activa"
     },
     {
         "id": "beautypro",
@@ -150,7 +150,7 @@
         ],
         "year": "2023",
         "role": "Web designer and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/beautypro"
+        "projectUrl": "/project/beautypro"
     },
     {
         "id": "sanjose",
@@ -173,7 +173,7 @@
         ],
         "year": "2022",
         "role": "Web designer and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/sanjose"
+        "projectUrl": "/project/sanjose"
     },
     {
         "id": "iovoip",
@@ -196,7 +196,7 @@
         ],
         "year": "2023",
         "role": "Web designer and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/iovoip"
+        "projectUrl": "/project/iovoip"
     },
     {
         "id": "logixcare",
@@ -219,7 +219,7 @@
         ],
         "year": "2020",
         "role": "Web designer and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/logixcare"
+        "projectUrl": "/project/logixcare"
     },
     {
         "id": "carysfort",
@@ -242,7 +242,7 @@
         ],
         "year": "2021",
         "role": "Web designer and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/carysfort"
+        "projectUrl": "/project/carysfort"
     },
     {
         "id": "tarich",
@@ -265,6 +265,6 @@
         ],
         "year": "2022",
         "role": "Web designer and developer.",
-        "projectUrl": "https://andreagimenez.dev/projects/tarich"
+        "projectUrl": "/project/tarich"
     }
 ]

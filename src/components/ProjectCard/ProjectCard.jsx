@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import Button from "../Atoms/Button/Button"
 import Icon from "../Atoms/Icons/Icon"
 import "./ProjectCard.scss"
+import { projectContext } from "../../App";
+import { Link } from "react-router-dom";
 
 function ProjectCard(props) {
 
@@ -13,8 +16,12 @@ function ProjectCard(props) {
               <small>{props.tagline}</small>
             </div>
             <div className="projectCard__link">
-              <div className="projectCard__icons"><Icon/><Icon/><Icon/></div>
-              <Button type='btn--accent' content="→"></Button>
+              <div className="projectCard__icons">
+                {props.technologies.map(technologies => <Icon>{technologies}</Icon>)}
+              </div>
+              <Link to={props.projectUrl}>
+                <Button type='btn--accent' content="→"></Button>
+              </Link>
             </div>
           </div>
           <div className="projectCard__overlay"></div>

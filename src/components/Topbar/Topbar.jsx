@@ -30,7 +30,7 @@ function Topbar() {
         <p className="h6"><Link to="/" className="topbar__logo">Andrea Giménez</Link></p>
         <ul className={`nav nav__burger ${isActive ? 'active' : ''}`}>
           <li className="nav__item"><Link to="/" className="nav__item--link">Home</Link></li>
-          <li className="nav__item"><Link to="/Project" className="nav__item--link">Projects</Link></li>
+          <li className="nav__item"><a href="/#projects" className="nav__item--link">Projects</a></li>
           <li className="nav__item"><Link to="/Contact" relative="/contact">Contact</Link></li>
           <li className="nav__item"><Link to="/legal" className="nav__item--link">Legal Notice</Link></li>
           <li className="nav__item"><Link to="/privacy" className="nav__item--link">Privacy Policy</Link></li>
@@ -40,7 +40,7 @@ function Topbar() {
         <div className="nav__wrap">
           <ul className="nav nav--desktop">
             <li className="nav__item"><Link to="/" className="nav__item--link">Home</Link></li>
-            <li className="nav__item"><Link to="/Project" className="nav__item--link">Projects</Link></li>
+            <li className="nav__item"><a href="/#projects" className="nav__item--link">Projects</a></li>
             <li className="nav__item"><Link to="/Contact" relative="/contact">Contact</Link></li>
           </ul>
           <div className={`burger ${isActive ? 'active' : ''}`} onClick={handleClick}>

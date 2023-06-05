@@ -9,22 +9,31 @@ import { useParams } from "react-router-dom";
 function Project() {
   const {projects} = useContext (projectContext);
   const params = useParams();
-  const listado = projects
-  const selectedProject = listado.find((project) => projects.id === params.projectId);
+  const listado = projects;
+  const selectedProject = listado.find((projects) => projects.id === params.projectID);
 
-  console.log (selectedProject);
+  // Obtén los índices de los proyectos anterior y siguiente
+  const currentIndex = listado.findIndex((project) => project.id === params.projectID);
+  const previousIndex = currentIndex - 1;
+  const nextIndex = currentIndex + 1;
 
-    return (
+  // Verifica si existen proyectos anterior y siguiente
+  const previousProject = listado[previousIndex] || " ";
+  const nextProject = listado[nextIndex] || " ";
+
+  return (
       <>
-          <Projects
-          title={projects.title}
-          tagline={projects.tagline}
-          image={projects.image}
-          description={projects.description}
-          year={projects.year}
-          role={projects.role}
+        <Projects
+          key={selectedProject?.id}
+          title={selectedProject?.title}
+          tagline={selectedProject?.tagline}
+          image={selectedProject?.image}
+          description={selectedProject?.description}
+          year={selectedProject?.year}
+          role={selectedProject?.role}
+          links={selectedProject?.links}
           />
-        <ProjectNav />
+        <ProjectNav previousProject={previousProject} nextProject={nextProject} />
       </>
     )
   }
