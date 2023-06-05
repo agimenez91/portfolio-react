@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Button from "../components/Atoms/Button/Button"
 import Icon from "../components/Atoms/Icons/Icon"
 
@@ -23,11 +24,11 @@ function Contact() {
           <div className="flex--column">
             <h2 className="h6">Or take a look:</h2>
             <div className="flex--row">
-              <Button content="LinkedIn" icon={<Icon/>}/>
-              <Button content="GitHub" icon={<Icon/>}/>
-              <Button content="Figma" icon={<Icon/>}/>
-              <Button content="Codepen" icon={<Icon/>}/>
-              <Button content="Twitter" icon={<Icon/>}/>
+              <a href="https://www.linkedin.com/in/andreagimenezuso/" target="_blank"><Button content="LinkedIn" icon={<Icon/>}/></a>
+              <a href="https://github.com/agimenez91" target="_blank"><Button content="GitHub" icon={<Icon/>}/></a>
+              <a href="#" target="_blank"><Button content="Figma" icon={<Icon/>}/></a>
+              <a href="https://codepen.io/agimenez91" target="_blank"><Button content="Codepen" icon={<Icon/>}/></a>
+              <a href="https://twitter.com/whatthatfront" target="_blank"><Button content="Twitter" icon={<Icon/>}/></a>
             </div>
           </div>
         </div>
