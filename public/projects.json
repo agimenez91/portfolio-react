@@ -3,9 +3,9 @@
         "id": "kumis",
         "title": "Kumis Digital",
         "tagline": "Web development agency for veterinarians.",
-        "description": "Complete digital project creation, including concept development, branding, graphic design, web design, and development. The website was built using HTML, CSS, and JavaScript, and later customized with PHP to create a custom template in WordPress.",
-        "technologies": ["Wordpress", "PHP", "CSS", "JavaScript", "HTML", "Figma"],
-        "image": "./img/kumis.webp",
+        "description": "Complete digital project creation, including concept development, branding, graphic design, web design, and development. The website was built using html, css, and javascript, and later customized with php to create a custom template in WordPress.",
+        "technologies": ["Wordpress", "php", "css", "javascript", "html", "figma"],
+        "image": "/img/kumis.webp",
         "links": [
             {
                 "url": "https://github.com/agimenez91/AndreaG_ProyectBeta.git",
@@ -14,7 +14,7 @@
             },
             {
                 "url": "https://www.figma.com/file/gSyQJOmOycmuzY9evBLNTL/Andrea-Gim%C3%A9nez---Project-Beta?type=design&node-id=504%3A2&t=fqo44ftQDJOolrwU-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -31,9 +31,9 @@
         "id": "about",
         "title": "About",
         "tagline": "A project about myself",
-        "description": "This project was my very first website that I coded entirely on my own. I utilized HTML, CSS, and JavaScript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
-        "technologies": ["CSS", "JavaScript", "HTML", "Figma"],
-        "image": "./img/about.webp",
+        "description": "This project was my very first website that I coded entirely on my own. I utilized html, css, and javascript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
+        "technologies": ["css", "javascript", "html", "figma"],
+        "image": "/img/about.webp",
         "links": [
             {
                 "url": "https://github.com/agimenez91/Project-Alpha_Andrea-Gimenez.git",
@@ -42,7 +42,7 @@
             },
             {
                 "url": "https://www.figma.com/file/zjn4yKIlCD7Iqui58pfiia/Andrea-Gim%C3%A9nez---Project-Alpha?type=design&node-id=510%3A13&t=1k8n7BBVywACn8TA-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -59,9 +59,9 @@
         "id": "portfolio",
         "title": "Portfolio",
         "tagline": "The project behind this portfolio",
-        "description": "This project was my very first website that I coded entirely on my own. I utilized HTML, CSS, and JavaScript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
-        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML", "Figma"],
-        "image": "./img/portfolio.webp",
+        "description": "This project was my very first website that I coded entirely on my own. I utilized html, css, and javascript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
+        "technologies": ["react", "css", "sass", "javascript", "html", "figma"],
+        "image": "/img/portfolio.webp",
         "links": [
             {
                 "url": "https://github.com/agimenez91/portfolio-react.git",
@@ -70,7 +70,7 @@
             },
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -88,12 +88,12 @@
         "title": "Occidental Resources",
         "tagline": "Branding, web design and web development for a company in the commodities sector",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
-        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
-        "image": "./img/occidentalresources.webp",
+        "technologies": ["react", "css", "sass", "javascript", "html"],
+        "image": "/img/occidentalresources.webp",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -111,12 +111,12 @@
         "title": "Activa Freelancer",
         "tagline": "Web design and web development for an accountant",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
-        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
-        "image": "./img/activa.webp",
+        "technologies": ["react", "css", "sass", "javascript", "html"],
+        "image": "/img/activa.webp",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -134,12 +134,12 @@
         "title": "Beauty Pro",
         "tagline": "Project in course",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
-        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
-        "image": "./img/beautypro.webp",
+        "technologies": ["react", "css", "sass", "javascript", "html"],
+        "image": "/img/beautypro.webp",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -157,12 +157,12 @@
         "title": "Tanatorio San José",
         "tagline": "Web design and development for Tanatorio San José",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
-        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
-        "image": "./img/sanjose.webp",
+        "technologies": ["react", "css", "sass", "javascript", "html"],
+        "image": "/img/sanjose.webp",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -180,12 +180,12 @@
         "title": "IO VoIP",
         "tagline": "Web design and development for a cloud communications company",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
-        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
-        "image": "./img/iovoip.webp",
+        "technologies": ["react", "css", "sass", "javascript", "html"],
+        "image": "/img/iovoip.webp",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -203,12 +203,12 @@
         "title": "LogixCare LLC",
         "tagline": "Web design and development for an IT Company",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
-        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
-        "image": "./img/logixcare.webp",
+        "technologies": ["react", "css", "sass", "javascript", "html"],
+        "image": "/img/logixcare.webp",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -226,12 +226,12 @@
         "title": "Carysfort Group LLC.",
         "tagline": "Web design and development for Carysfort Group",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
-        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
-        "image": "./img/carysfort.webp",
+        "technologies": ["react", "css", "sass", "javascript", "html"],
+        "image": "/img/carysfort.webp",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {
@@ -249,12 +249,12 @@
         "title": "Tarich Law Firm",
         "tagline": "Web design and development for a law firm",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend sem et dui aliquam ullamcorper. Mauris tincidunt libero a turpis lobortis, nec cursus arcu condimentum. In a accumsan ex. Vivamus convallis in ipsum vitae commodo. Morbi dictum nunc massa, hendrerit dapibus sapien pharetra et. Donec rhoncus vehicula tellus, sed congue nisi egestas ultricies. Suspendisse eu felis in nisi euismod consequat ac sed neque. Morbi lobortis posuere est in sodales.",
-        "technologies": ["React", "CSS", "SASS", "JavaScript", "HTML"],
-        "image": "./img/tarichlaw.webp",
+        "technologies": ["react", "css", "sass", "javascript", "html"],
+        "image": "/img/tarichlaw.webp",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
+                "name": "figma",
                 "icon": "figma"
             },
             {

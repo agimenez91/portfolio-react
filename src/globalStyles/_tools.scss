@@ -1,6 +1,7 @@
-$desktop:   70rem;
-$tablet:    48rem;
-$mobile:    30rem;
+$desktop:       65rem;
+$tablet-big:    50rem;
+$tablet:        40rem;
+$mobile:        25rem;
 
 @mixin MQ($mediaquery_unit: $mobile) {
     @media all and (min-width: $mediaquery_unit) {

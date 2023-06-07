@@ -18,6 +18,28 @@ button, .btn {
     font-weight: bold;
     text-decoration: none!important;
 
+    a {
+        text-decoration: none;
+        margin-bottom: 0;
+        padding: 0;
+        color: inherit;
+        transition: none;
+        font-size: inherit;
+        line-height: inherit;
+        display: flex;
+        gap: var(--gap-S);
+        align-items: center;
+
+        &:hover {
+            color: inherit;
+            transition: none;
+        }
+    }
+
+    svg {
+        fill: currentColor;
+    }
+
     @include MQ ($tablet) {
         font-size: var(--font-size-desktop);
     }
@@ -25,6 +47,10 @@ button, .btn {
     &:hover {
         background-color: var(--color-greyscale9);
         color: var(--color-white);
+
+        svg {
+            fill: currentColor;
+        }
     }
 
     &:active {

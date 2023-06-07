@@ -10,7 +10,6 @@ import Privacy from "./views/Privacy";
 import Error404 from "./views/Error404";
 import Topbar from "./components/Topbar/Topbar";
 import React, { useEffect, useState } from "react";
-import { Provider } from "react";
 import Ball from "./components/Atoms/Ball/Ball";
 export const projectContext = React.createContext({
   projects: []
@@ -30,7 +29,7 @@ function App() {
 
   return (
     <>
-      <Topbar />
+      <Topbar/>
       <projectContext.Provider value={{
         projects: list
       }}>
@@ -45,6 +44,7 @@ function App() {
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
       </projectContext.Provider>
+
       {!is404Route && <Ball />}
     </>
   );

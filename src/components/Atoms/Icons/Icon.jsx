@@ -1,14 +1,16 @@
 import React from 'react';
 import "./Icon.scss";
+import { IconMap } from './IconMap';
 
-const Icon = (props) => {
-
+export default function Icon (props) {
 
   return (
     <>
-    {props.children}
+      {props.name ? (
+        <>{IconMap[props.name]}</>
+      ) : ("")}
     </>
   );
 };
 
-export default Icon;
+

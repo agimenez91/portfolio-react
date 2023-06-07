@@ -32,6 +32,7 @@ function Project() {
           year={selectedProject?.year}
           role={selectedProject?.role}
           links={selectedProject?.links}
+          technologies={selectedProject?.technologies}
           />
         <ProjectNav previousProject={previousProject} nextProject={nextProject} />
       </>

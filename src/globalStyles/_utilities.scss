@@ -20,10 +20,10 @@
 
 .extragap {
   @include MQ ($tablet) {
-    gap: var(--gap-XS);
+    gap: var(--gap-L);
   }
   @include MQ ($desktop) {
-    gap: var(--gap-S);
+    gap: var(--gap-XL);
   }
 }
 

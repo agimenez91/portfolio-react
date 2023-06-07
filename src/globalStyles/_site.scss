@@ -111,6 +111,13 @@
     --gap-grid-S:                     var(--unit-40);
     --gap-grid-M:                     var(--unit-80);
     --gap-grid-L:                     var(--unit-128);
+
+    //Icons:
+    --icon-S:                         var(--unit-14);
+    --icon-M:                         var(--unit-16);
+    --icon-L:                         var(--unit-18);
+    --icon-XL:                        var(--unit-24);
+
 }
 
 @font-face {
@@ -170,6 +177,8 @@ figure {
     border-bottom: 2px solid var(--bg-color-greyscale7);
     border-top: 2px solid var(--bg-color-greyscale7);
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 ::-webkit-scrollbar {

@@ -1,3 +1,5 @@
+@import '/src/globalStyles/tools';
+
 .project-nav {
     display: flex;
     align-items: center;
@@ -5,6 +7,15 @@
     gap: var(--gap-S);
     color: var(--color-greyscale8);
     height: var(--unit-80);
+
+    @media screen and ( min-height: 660px ) {
+        @include MQ ($desktop) {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    }
 
     p {
         margin: 0;
