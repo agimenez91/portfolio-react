@@ -25,7 +25,9 @@
         ],
         "year": "2023",
         "role": "Project creator, web designer, and developer.",
-        "projectUrl": "/project/kumis"
+        "projectUrl": "/project/kumis",
+        "typeOfProject": ["design"]
+
     },
     {
         "id": "about",
@@ -53,7 +55,8 @@
         ],
         "year": "2023",
         "role": "Project creator, web designer, and developer.",
-        "projectUrl": "/project/about"
+        "projectUrl": "/project/about",
+        "typeOfProject": [ "development"]
     },
     {
         "id": "portfolio",
@@ -81,7 +84,8 @@
         ],
         "year": "2023",
         "role": "Project creator, web designer, and developer.",
-        "projectUrl": "/project/portfolio"
+        "projectUrl": "/project/portfolio",
+        "typeOfProject": [ "development"]
     },
     {
         "id": "occidental",
@@ -104,7 +108,8 @@
         ],
         "year": "2022",
         "role": "Designer and web developer.",
-        "projectUrl": "/project/occidental"
+        "projectUrl": "/project/occidental",
+        "typeOfProject": ["design", "development"]
     },
     {
         "id": "activa",
@@ -127,7 +132,8 @@
         ],
         "year": "2022",
         "role": "Web designer and developer.",
-        "projectUrl": "/project/activa"
+        "projectUrl": "/project/activa",
+        "typeOfProject": ["design", "development"]
     },
     {
         "id": "beautypro",
@@ -150,7 +156,8 @@
         ],
         "year": "2023",
         "role": "Web designer and developer.",
-        "projectUrl": "/project/beautypro"
+        "projectUrl": "/project/beautypro",
+        "typeOfProject": ["design", "development"]
     },
     {
         "id": "sanjose",
@@ -173,7 +180,8 @@
         ],
         "year": "2022",
         "role": "Web designer and developer.",
-        "projectUrl": "/project/sanjose"
+        "projectUrl": "/project/sanjose",
+        "typeOfProject": ["design", "development"]
     },
     {
         "id": "iovoip",
@@ -196,7 +204,8 @@
         ],
         "year": "2023",
         "role": "Web designer and developer.",
-        "projectUrl": "/project/iovoip"
+        "projectUrl": "/project/iovoip",
+        "typeOfProject": ["design", "development"]
     },
     {
         "id": "logixcare",
@@ -219,7 +228,8 @@
         ],
         "year": "2020",
         "role": "Web designer and developer.",
-        "projectUrl": "/project/logixcare"
+        "projectUrl": "/project/logixcare",
+        "typeOfProject": ["design"]
     },
     {
         "id": "carysfort",
@@ -242,7 +252,8 @@
         ],
         "year": "2021",
         "role": "Web designer and developer.",
-        "projectUrl": "/project/carysfort"
+        "projectUrl": "/project/carysfort",
+        "typeOfProject": ["design"]
     },
     {
         "id": "tarich",
@@ -265,6 +276,7 @@
         ],
         "year": "2022",
         "role": "Web designer and developer.",
-        "projectUrl": "/project/tarich"
+        "projectUrl": "/project/tarich",
+        "typeOfProject": ["design"]
     }
 ]
