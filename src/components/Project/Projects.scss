@@ -31,7 +31,7 @@
     &__img {
         width: 100%;
         object-fit: cover;
-        mix-blend-mode: multiply;
+        mix-blend-mode: luminosity;
 
         @media screen and ( max-height: 660px ) {
             @include MQ ($tablet-big) {

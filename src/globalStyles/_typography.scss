@@ -81,6 +81,7 @@ a, .a {
     font-size: var(--font-size-mobile);
     line-height: var(--line-height-big);
     margin-bottom: 0.5em;
+    mix-blend-mode: multiply;
 
     @include MQ ($tablet) {
         font-size: var(--font-size-desktop);

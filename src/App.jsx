@@ -11,6 +11,8 @@ import Error404 from "./views/Error404";
 import Topbar from "./components/Topbar/Topbar";
 import React, { useEffect, useState } from "react";
 import Ball from "./components/Atoms/Ball/Ball";
+import { useMediaQuery } from 'react-responsive'
+import BallFixed from "./components/Atoms/Ball/BallFixed";
 export const projectContext = React.createContext({
   projects: []
 });
@@ -26,6 +28,8 @@ function App() {
   }, []);
 
   const is404Route = location.pathname === "/404";
+
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 50rem)' });
 
   return (
     <>
@@ -45,7 +49,8 @@ function App() {
         </Routes>
       </projectContext.Provider>
 
-      {!is404Route && <Ball />}
+      {isTabletOrMobile ? <BallFixed /> : (is404Route? <BallFixed/> : <Ball />)}
+      {/* {!is404Route && <Ball />} */}
     </>
   );
 }
