@@ -12,8 +12,6 @@ import Topbar from "./components/Topbar/Topbar";
 import React, { useEffect, useState } from "react";
 import Ball from "./components/Atoms/Ball/Ball";
 import { useMediaQuery } from 'react-responsive'
-import Ball404 from "./components/Atoms/Ball/Ball404";
-import BallMobile from "./components/Atoms/Ball/BallMobile";
 export const projectContext = React.createContext({
   projects: []
 });
@@ -35,6 +33,7 @@ function App() {
   return (
     <>
       <Topbar/>
+      <main className="main">
       <projectContext.Provider value={{
         projects: list
       }}>
@@ -50,8 +49,8 @@ function App() {
         </Routes>
       </projectContext.Provider>
 
-      {is404Route? <Ball404/> : <Ball />}
-      {/* {!is404Route && <Ball />} */}
+      {!is404Route && <Ball />}
+      </main>
     </>
   );
 }

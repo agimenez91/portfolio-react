@@ -29,6 +29,7 @@ button, .btn {
         display: flex;
         gap: var(--gap-S);
         align-items: center;
+        mix-blend-mode: normal;
 
         &:hover {
             color: inherit;
@@ -71,8 +72,10 @@ button, .btn {
     border: none;
     border-radius: 100%;
     aspect-ratio: 1/1;
+    mix-blend-mode: normal;
 
     &:hover {
         background-color: var(--bg-color-rose);
+        color: var(--color-white);
     }
 }
