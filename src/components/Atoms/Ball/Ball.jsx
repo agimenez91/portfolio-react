@@ -1,11 +1,9 @@
 import React, { useRef, useEffect } from 'react';
-import './Ball.scss'; // Import the CSS file for styling the ball
+import './Ball.scss'; 
 import { useMediaQuery } from 'react-responsive';
 
 function generateRandom(maxLimit = 100){
   let rand = Math.random() * maxLimit;
-  console.log(rand); // say 99.81321410836433
-
   rand = Math.floor(rand); // 99
 
   return rand;
@@ -14,6 +12,7 @@ function generateRandom(maxLimit = 100){
 const Ball = () => {
   const ballRef = useRef(null);
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 50rem)' });
+  
   const handleMouseMove = (event) => {
     const ball = ballRef.current;
     ball.style.left = `${event.pageX}px`; // Set the left position of the ball
@@ -27,6 +26,7 @@ const Ball = () => {
     ball.style.left = `${x}%`; // Set the left position of the ball
     ball.style.top = `${y}%`; // Set the top position of the ball
   }
+  
   let interval;
 
   useEffect(() => {
@@ -34,6 +34,7 @@ const Ball = () => {
     if (isTabletOrMobile) {
       handleMobile();
       interval = setInterval(handleMobile, 5000);
+
     } else {
       document.addEventListener('mousemove', handleMouseMove);
     }
