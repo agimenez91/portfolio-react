@@ -8,6 +8,16 @@
     color: var(--color-greyscale8);
     height: var(--unit-80);
 
+    @include MQ ($desktop) {
+        align-items: end;
+    }
+
+    &--wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     @media screen and ( min-height: 660px ) {
         @include MQ ($desktop) {
             position: absolute;

@@ -43,7 +43,7 @@ const Ball = () => {
       document.removeEventListener('mousemove', handleMouseMove);
       clearInterval(interval)
     };
-  }, []);
+  }, [isTabletOrMobile]);
 
   return <div ref={ballRef} className="ball"></div>;
 };
