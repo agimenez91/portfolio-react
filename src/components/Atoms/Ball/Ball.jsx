@@ -1,47 +1,50 @@
 import React, { useRef, useEffect } from 'react';
-import './Ball.scss'; 
+import './Ball.scss';
 import { useMediaQuery } from 'react-responsive';
 
-function generateRandom(maxLimit = 100){
+function generateRandom(maxLimit = 100) {
   let rand = Math.random() * maxLimit;
-  rand = Math.floor(rand); // 99
-
+  rand = Math.floor(rand);
   return rand;
 }
 
 const Ball = () => {
   const ballRef = useRef(null);
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 50rem)' });
-  
+
   const handleMouseMove = (event) => {
     const ball = ballRef.current;
-    ball.style.left = `${event.pageX}px`; // Set the left position of the ball
-    ball.style.top = `${event.pageY}px`; // Set the top position of the ball
+    ball.style.left = `${event.pageX}px`;
+    ball.style.top = `${event.pageY}px`;
   };
 
   const handleMobile = () => {
     const ball = ballRef.current;
-    const x = generateRandom();
-    const y = generateRandom();
-    ball.style.left = `${x}%`; // Set the left position of the ball
-    ball.style.top = `${y}%`; // Set the top position of the ball
-  }
-  
+    const screenWidth = window.innerWidth;
+    const screenHeight = window.innerHeight;
+    const ballWidth = ball.offsetWidth;
+    const ballHeight = ball.offsetHeight;
+    const maxX = screenWidth - ballWidth;
+    const maxY = screenHeight - ballHeight;
+    const x = generateRandom(maxX);
+    const y = generateRandom(maxY);
+    ball.style.left = `${x}px`;
+    ball.style.top = `${y}px`;
+  };
+
   let interval;
 
   useEffect(() => {
-    
     if (isTabletOrMobile) {
       handleMobile();
-      interval = setInterval(handleMobile, 5000);
-
+      interval = setInterval(handleMobile, 8000);
     } else {
       document.addEventListener('mousemove', handleMouseMove);
     }
-      
+
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
-      clearInterval(interval)
+      clearInterval(interval);
     };
   }, [isTabletOrMobile]);
 
