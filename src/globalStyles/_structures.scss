@@ -1,3 +1,5 @@
+@import "/src/globalStyles/tools";
+
 .col3 {
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +45,26 @@
     align-items: start;
     justify-content: center;
     gap: var(--gap-L);
-    height: 100vh;
+    padding-top: var(--topbar-height);
+    padding-bottom: var(--topbar-height);
+
+    @media screen and ( min-height: 700px ) {
+        height: 100vh;   
+    }
+
+    @include MQ ($tablet) {
+        height: 100vh;
+        padding-top: var(--topbar-height);
+        padding-bottom: var(--topbar-height);
+
+        @media screen and ( max-height: 600px ) {
+            padding-top: var(--topbar-height);
+            padding-bottom: var(--topbar-height);
+            height: inherit;
+        }
+    } 
+
+
 }
 
 .legal {
