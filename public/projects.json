@@ -88,7 +88,7 @@
         "year": "2023",
         "role": "Web designer, developer and project owner",
         "projectUrl": "/project/portfolio",
-        "typeOfProject": [ "development", "design", "react"]
+        "typeOfProject": [ "development", "design", "react", "frameworks"]
     },
     {
         "id": "occidental",
@@ -296,7 +296,7 @@
         "tagline": "Wedding web design",
         "description": "María and Kevin, a young couple, desired a wedding website to effectively communicate important wedding details to their guests. They sought a platform that would enable seamless communication and allow guests to provide feedback on various wedding-related inquiries. \n\n In terms of design, María and Kevin wished for the website to complement their wedding invitation. The design elements were intended to harmonize with the overall theme and aesthetic of their special day. \n\n While the website is not currently live, you can still explore the website navigation by following the link provided. This will give you a sense of how the website was structured and the thought put into organizing the information for their guests.",
         "technologies": ["tilda"],
-        "image": "/img/tarichlaw.webp",
+        "image": "/img/kevinymaria.webp",
         "alt-img": "cover image, wedding logo",
         "links": [
             {
@@ -307,7 +307,7 @@
         ],
         "year": "2022",
         "role": "Web designer and developer.",
-        "projectUrl": "/project/tarich",
+        "projectUrl": "/project/mariaykevin",
         "typeOfProject": ["design", "development", "cms"]
     }
 ]

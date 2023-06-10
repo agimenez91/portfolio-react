@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom"
 import Button from "../components/Atoms/Button/Button"
-import Icon from "../components/Atoms/Icons/Icon"
+import WavyLine from '/src/components/Atoms/WavyLine/WavyLine'
 
 function Contact() {
 
@@ -8,7 +7,7 @@ function Contact() {
       <>
         <div className="contact">
           <div>
-          <h1 className="display">Get in <span className="wavyline">touch</span> !</h1>
+          <h1 className="display">Get in <span className="relative">touch<WavyLine></WavyLine></span> !</h1>
           <p className="big">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, nisi. Atque nesciunt sit unde natus nam ratione dolor. Consectetur praesentium earum atque explicabo iste temporibus illum recusandae rerum, itaque fugiat.</p>
           </div>
           <div className="flex--row extragap wrap">

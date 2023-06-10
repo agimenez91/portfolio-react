@@ -7,7 +7,7 @@
     position: relative;
     aspect-ratio: 4/2.2;
     justify-content: space-evenly;
-    mix-blend-mode: multiply;
+    mix-blend-mode: luminosity;
 
     h2 {
         color: var(--color-pearl);

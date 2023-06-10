@@ -1,9 +1,12 @@
+import WavyLine from '/src/components/Atoms/WavyLine/WavyLine'
+
+
 function Legal() {
 
     return (
       <>
         <div className="legal">
-          <p className="h1 display">Legal <span className="wavyline">Notice</span></p>
+          <p className="h1 display">Legal <span className="relative">Notice<WavyLine/></span></p>
           <h1 className="h3">Legal Notice and General Terms of Use</h1>
           <p><a href="https://andreagimenez.dev">https=//andreagimenez.dev</a></p>
           <h2 className="h4">I. General Information</h2>
