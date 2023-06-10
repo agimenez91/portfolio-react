@@ -6,7 +6,7 @@
         "description": "I took complete ownership of this project, handling all aspects from start to finish. This involved developing the business concept, creating the branding, designing graphics, and taking charge of web design and development.\n\n For the website construction, I employed HTML, CSS, and JavaScript as the core technologies. Later on, I incorporated PHP to further enhance the website's functionality and create a customized template specifically tailored for WordPress.",
         "technologies": ["figma", "html", "sass", "php", "wordpress", "github"],
         "image": "/img/kumis.webp",
-        "alt-img": "cover image, includes Kumis logo and a composition of animal pictures",
+        "altImg": "cover image, includes Kumis logo and a composition of animal pictures",
         "links": [
             {
                 "url": "https://github.com/agimenez91/AndreaG_ProyectBeta.git",
@@ -37,7 +37,7 @@
         "description": "This project was my very first website that I coded entirely on my own. I utilized html, css, and javascript to bring it to life. If you're interested in learning more about me, please feel free to explore. I hope you find it enjoyable!",
         "technologies": ["figma", "html", "css", "javascript", "github"],
         "image": "/img/about.webp",
-        "alt-img": "cover image, brand logo that represents the letters A and a G together",
+        "altImg": "cover image, brand logo that represents the letters A and a G together",
         "links": [
             {
                 "url": "https://github.com/agimenez91/Project-Alpha_Andrea-Gimenez.git",
@@ -67,7 +67,7 @@
         "description": "This project was born as a platform to showcase all of my projects. The underlying idea was to integrate various projects that may not have initially appeared cohesive into a unified image. To achieve this objective, I relied on the strategic use of white space and a combination of grayscale tones with occasional pops of color.\n\n The project was developed using React, a powerful framework that allowed me to build a dynamic and interactive user experience.",
         "technologies": ["figma", "react", "sass", "github"],
         "image": "/img/portfolio.webp",
-        "alt-img": "cover image, a circle with the title portfolio highlighted by a wavy line",
+        "altImg": "cover image, a circle with the title portfolio highlighted by a wavy line",
         "links": [
             {
                 "url": "https://github.com/agimenez91/portfolio-react.git",
@@ -88,7 +88,7 @@
         "year": "2023",
         "role": "Web designer, developer and project owner",
         "projectUrl": "/project/portfolio",
-        "typeOfProject": [ "development", "design", "react", "frameworks"]
+        "typeOfProject": [ "development", "design", "react", "frameworks", "html"]
     },
     {
         "id": "occidental",
@@ -97,7 +97,7 @@
         "description": "I was entrusted with creating the branding and website design for a young commodities company that wanted to showcase their expertise, global network, environmental commitment, and proximity to suppliers. \n\n With complete creative freedom, I chose an earthy color palette, a combination of serif for titles, lending a touch of elegance, while maintaining a clean and professional look with a corporate font for the body text. The logo represented a worldwide network dedicated to the Earth. \n\n The website was developed on Tilda.",
         "technologies": ["tilda"],
         "image": "/img/occidentalresources.webp",
-        "alt-img": "cover image, occidental resources logo with a landscape as background",
+        "altImg": "cover image, occidental resources logo with a landscape as background",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
@@ -122,7 +122,7 @@
         "description": "This website was designed for Activa Freelancer, a new accounting firm founded by Natalia Silvestre. The goal was to create a corporate website that truly captured the essence of the founder and conveyed the services she could offer to her clients. \n\n The client desired a website that reflected seriousness, femininity, elegance, and a youthful vibe. To align with these qualities, a color palette was chosen that harmonized with the golden logo of the firm. \n\n The website was developed using Tilda.",
         "technologies": ["tilda"],
         "image": "/img/activa.webp",
-        "alt-img": "cover image, logo of activa freelancer with Natalia Silvestre as background",
+        "altImg": "cover image, logo of activa freelancer with Natalia Silvestre as background",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
@@ -147,7 +147,7 @@
         "description": "This ongoing project involves Beauty Pro, a subsidiary of a corporation that encompasses multiple businesses that were previously operating under a single brand. The objective is to separate each business and establish a cohesive image across all of them, including the creation of individual websites for each entity. \n\n While the design system for all the brands is currently being developed, there was an immediate need to rebrand the Beauty Pro website for an upcoming trade show in July. As a temporary solution, we quickly refreshed the existing website using Elementor, working on a facelift of its design. However, the ultimate goal is to develop custom WordPress websites for each business as part of the larger project.",
         "technologies": ["figma", "css", "wordpress", "elementor", "php"],
         "image": "/img/beautypro.webp",
-        "alt-img": "cover image with the beauty pro logo and makeup as background",
+        "altImg": "cover image with the beauty pro logo and makeup as background",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
@@ -172,7 +172,7 @@
         "description": "The Tanatorio San José website was long overdue for an update, as it had remained unchanged since the 1990s. The goal was to give it a modern look that aligns with current standards and practices. Given the nature of the business, the aim was to convey a sense of professionalism, tranquility, and elegance through the website's design. \n\n To achieve this, a dark theme was chosen, creating a sophisticated and calm atmosphere. A bluish accent color was incorporated to add a touch of visual interest. The typography utilized a serif font, which enhanced the sense of elegance. Modern and clean icons were used to provide a contemporary touch, juxtaposing the traditional serif font. \n\n The website was developed on the Tilda platform.",
         "technologies": ["tilda"],
         "image": "/img/sanjose.webp",
-        "alt-img": "cover image with the logo of Tanatorio San José and the tanatorio itself as background",
+        "altImg": "cover image with the logo of Tanatorio San José and the tanatorio itself as background",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
@@ -197,7 +197,7 @@
         "description": "IO VoIP, a cloud communication company, required a website to establish an online presence and enhance customer trust. To meet these objectives, I developed a color palette that not only conveyed a sense of corporate identity but also prioritized accessibility. The chosen colors were harmonized with the company's logo to maintain consistency and brand recognition. \n\n In terms of website development, they needed the website fast, so I utilized Elementor, to create a visually appealing and functional website for IO VoIP.",
         "technologies": ["elementor", "wordpress", "css"],
         "image": "/img/iovoip.webp",
-        "alt-img": "cover image, IO VoIP's logo",
+        "altImg": "cover image, IO VoIP's logo",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
@@ -222,7 +222,7 @@
         "description": "This particular website holds a special significance for me as it marked the beginning of my journey into web development. When my company needed a new website, I initially outsourced the development to a third-party company using WordPress. However, upon seeing the final result, I was dissatisfied and realized that I had the ability to work on the site and make modifications myself. This realization sparked my interest in web development and set me on this path. \n\n As I delved deeper into the field, I discovered another CMS called Tilda. Its speed, optimization, and user-friendly features made it a preferable choice over WordPress. Consequently, I made the decision to migrate the website to Tilda and underwent a complete redesign using this platform.",
         "technologies": ["figma", "tilda"],
         "image": "/img/logixcare.webp",
-        "alt-img": "cover image, logixcare logo with miami landscape as background",
+        "altImg": "cover image, logixcare logo with miami landscape as background",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
@@ -247,7 +247,7 @@
         "description": "Carysfort Group is a comprehensive service provider offering property, lifestyle, and transportation. Managed by an elderly couple, they sought a new website to showcase their range of services. However, despite the website being designed and completed in 2021, they have chosen not to make it publicly accessible at this time due to their existing high workload. They prefer not to handle additional business inquiries online.\n\n That being said, you are welcome to visit the website by following the link provided on this screen. The website was specifically designed to capture the essence of the Florida Keys, evoking a luxurious atmosphere. It was developed using Tilda.",
         "technologies": ["tilda"],
         "image": "/img/carysfort.webp",
-        "alt-img": "cover image, showcasing a sea view with the carysfort logo",
+        "altImg": "cover image, showcasing a sea view with the carysfort logo",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
@@ -272,7 +272,7 @@
         "description": "Tarich Law Firm, a distinguished legal practice, sought to revamp their corporate website to reflect professionalism and simplicity. Their objective was to present a clear and accurate list of the services they offer. To achieve this, the website was developed using Tilda. \n\n The design of the website was crafted to exude a sense of professionalism, establishing trust and credibility with visitors. The emphasis was on simplicity, ensuring that the information is easily accessible and the navigation intuitive. The website's structure provides a comprehensive and accurate overview of the firm's services, enabling potential clients to understand the areas of expertise offered by Tarich Law Firm.",
         "technologies": ["tilda"],
         "image": "/img/tarichlaw.webp",
-        "alt-img": "cover image, tarich law firm logo",
+        "altImg": "cover image, tarich law firm logo",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
@@ -297,7 +297,7 @@
         "description": "María and Kevin, a young couple, desired a wedding website to effectively communicate important wedding details to their guests. They sought a platform that would enable seamless communication and allow guests to provide feedback on various wedding-related inquiries. \n\n In terms of design, María and Kevin wished for the website to complement their wedding invitation. The design elements were intended to harmonize with the overall theme and aesthetic of their special day. \n\n While the website is not currently live, you can still explore the website navigation by following the link provided. This will give you a sense of how the website was structured and the thought put into organizing the information for their guests.",
         "technologies": ["tilda"],
         "image": "/img/kevinymaria.webp",
-        "alt-img": "cover image, wedding logo",
+        "altImg": "cover image, wedding logo",
         "links": [
             {
                 "url": "https://youtu.be/EaFH51Fve-s",

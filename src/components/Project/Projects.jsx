@@ -15,7 +15,7 @@ function Projects(props) {
             </Link>
           </div>
           <figure className="projects__grid--2">
-            <img className="projects__img" src={props.image} alt={props.title}/>
+            <img className="projects__img" src={props.image} alt={props.alt}/>
           </figure>
           <p className="projects__grid--3">
             {props.description}

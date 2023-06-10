@@ -33,6 +33,7 @@ function Project() {
           role={selectedProject?.role}
           links={selectedProject?.links}
           technologies={selectedProject?.technologies}
+          alt={selectedProject?.altImg}
           />
         <ProjectNav previousProject={previousProject} nextProject={nextProject} />
       </>

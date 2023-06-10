@@ -9,10 +9,11 @@ function Filter({ onFilter }) {
   return (
     <div className="filter">
       <Button content="All" onClick={() => handleButtonClick("All")} />
-      <Button content="Design" onClick={() => handleButtonClick("design")} />
+      <Button content="Code" onClick={() => handleButtonClick("html")} />
+      <Button content="Frameworks" onClick={() => handleButtonClick("frameworks")} />
       <Button
-        content="Development"
-        onClick={() => handleButtonClick("development")}
+        content="CMS's"
+        onClick={() => handleButtonClick("cms")}
       />
     </div>
   );

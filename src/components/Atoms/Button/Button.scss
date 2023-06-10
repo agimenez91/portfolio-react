@@ -45,7 +45,7 @@ button, .btn {
         font-size: var(--font-size-desktop);
     }
 
-    &:hover {
+    &:hover, :target {
         background-color: var(--color-greyscale9);
         color: var(--color-white);
 
