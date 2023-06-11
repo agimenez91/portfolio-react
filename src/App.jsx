@@ -16,6 +16,16 @@ export const projectContext = React.createContext({
   projects: []
 });
 
+function ScrollToTop() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return null;
+}
+
 function App() {
   const [list, setlist] = useState([]);
   const location = useLocation();
@@ -32,6 +42,7 @@ function App() {
 
   return (
     <>
+      <ScrollToTop />
       <Topbar/>
       <main className="main">
       <projectContext.Provider value={{
