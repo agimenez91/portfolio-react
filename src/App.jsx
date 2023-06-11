@@ -11,6 +11,8 @@ import Error404 from "./views/Error404";
 import Topbar from "./components/Topbar/Topbar";
 import React, { useEffect, useState } from "react";
 import Ball from "./components/Atoms/Ball/Ball";
+import Ball404 from "./components/Atoms/Ball/Ball404";
+
 import { useMediaQuery } from 'react-responsive'
 export const projectContext = React.createContext({
   projects: []
@@ -42,7 +44,6 @@ function App() {
 
   return (
     <>
-      <ScrollToTop />
       <Topbar/>
       <main className="main">
       <projectContext.Provider value={{
@@ -61,6 +62,9 @@ function App() {
       </projectContext.Provider>
 
       {!is404Route && <Ball />}
+      {is404Route && <Ball404 />}
+
+      <ScrollToTop />
       </main>
     </>
   );

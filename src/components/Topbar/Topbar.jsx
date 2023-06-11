@@ -5,6 +5,7 @@ import "./Topbar.scss";
 function Topbar() {
   let location = useLocation();
   const [isActive, setIsActive] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const handleClick = () => {
     setIsActive(!isActive);
@@ -24,9 +25,25 @@ function Topbar() {
     };
   }, [isActive]);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-    <div className={`topbar ${isActive ? 'active' : ''}`}>
+      <div className={`topbar ${isActive ? 'active' : ''} ${isScrolled ? 'topbar--scroll' : ''}`}>
         <p className="h6"><Link to="/" className="topbar__logo">Andrea Giménez</Link></p>
         <ul className={`nav nav__burger ${isActive ? 'active' : ''}`}>
           <li className="nav__item"><Link to="/" className="nav__item--link">Home</Link></li>

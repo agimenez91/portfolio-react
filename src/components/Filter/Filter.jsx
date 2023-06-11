@@ -8,10 +8,10 @@ function Filter({ onFilter }) {
 
   return (
     <div className="filter">
-      <Button href="#projects" content="All" onClick={() => handleButtonClick("All")} />
-      <Button href="#projects" content="Code" onClick={() => handleButtonClick("html")} />
-      <Button href="#projects" content="Frameworks" onClick={() => handleButtonClick("frameworks")} />
-      <Button href="#projects" content="CMS's" onClick={() => handleButtonClick("cms")} />
+      <Button content="All" onClick={() => handleButtonClick("All")}/>
+      <Button content="Code" onClick={() => handleButtonClick("html")}/>
+      <Button content="Frameworks" onClick={() => handleButtonClick("frameworks")}/>
+      <Button content="CMS's" onClick={() => handleButtonClick("cms")}/>
     </div>
   );
 }
