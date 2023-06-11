@@ -6,11 +6,11 @@ const TypographicEffect = () => {
   const [displaySentence, setDisplaySentence] = useState(true);
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setDisplaySentence(false);
-    }, 5000);
+    const interval = setInterval(() => {
+      setDisplaySentence(prevState => !prevState);
+    }, 10000);
 
-    return () => clearTimeout(timeout);
+    return () => clearInterval(interval);
   }, []);
 
   const resetSentence = () => {

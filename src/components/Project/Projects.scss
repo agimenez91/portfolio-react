@@ -15,7 +15,7 @@
     }
 
     @media screen and ( min-height: 660px ) {
-    @include MQ ($desktop) {
+    @include MQ ($desktop-small) {
         display: grid;
         height: calc(100vh - var(--topbar-height));
         grid-template-columns: 2fr 2fr 3fr;
@@ -39,7 +39,7 @@
             }
         }
         
-        @include MQ ($desktop) {
+        @include MQ ($desktop-small) {
             aspect-ratio: inherit;
         }
 
@@ -62,7 +62,7 @@
     }
     @media screen and ( min-height: 660px ) {
     &__grid-- {
-        @include MQ ($desktop) {
+        @include MQ ($desktop-small) {
             &1 {
                 grid-column: 1/3;
                 grid-row: 1;

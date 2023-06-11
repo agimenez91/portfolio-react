@@ -1,7 +1,8 @@
-$desktop:       65rem;
-$tablet-big:    50rem;
-$tablet:        40rem;
-$mobile:        25rem;
+$desktop:        65rem;
+$desktop-small:  51rem;
+$tablet-big:     50rem;
+$tablet:         40rem;
+$mobile:         25rem;
 
 @mixin MQ($mediaquery_unit: $mobile) {
     @media all and (min-width: $mediaquery_unit) {
@@ -25,6 +26,10 @@ $map-layers: (
     padding: 0 var(--unit-16);
 
     @include MQ($tablet) {
+        padding: 0 var(--unit-80);
+    }
+
+    @include MQ($desktop-small) {
         padding: 0 var(--unit-80);
     }
 

@@ -18,18 +18,7 @@
         fill: var(--color-pearl);
     }
 
-    .icon--big {
-        width: var(--icon-M);
-        max-height: var(--icon-M);
-    
-        @include MQ ($tablet) {
-            width: var(--icon-L);
-            max-height: var(--icon-L);
-        }
-    
-        @include MQ ($desktop) {
-            width: var(--icon-XL);
-            max-height: var(--icon-XL);
-        }
+    &--btn {
+        width: var(--icon-S);
     }
 }
