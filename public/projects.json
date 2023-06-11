@@ -1,5 +1,35 @@
 [
     {
+        "id": "portfolio",
+        "title": "Portfolio",
+        "tagline": "The project behind this portfolio",
+        "description": "This project was born as a platform to showcase all of my projects. The underlying idea was to integrate various projects that may not have initially appeared cohesive into a unified image. To achieve this objective, I relied on the strategic use of white space and a combination of grayscale tones with occasional pops of color.\n\n The project was developed using React, a powerful framework that allowed me to build a dynamic and interactive user experience.",
+        "technologies": ["figma", "react", "sass", "github"],
+        "image": "/img/portfolio.webp",
+        "altImg": "cover image, a circle with the title portfolio highlighted by a wavy line",
+        "links": [
+            {
+                "url": "https://github.com/agimenez91/portfolio-react.git",
+                "name": "GitHub",
+                "icon": "github"
+            },
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://andreagimenez.dev",
+                "name": "Go to site",
+                "icon": "leave-to"
+            }
+        ],
+        "year": "2023",
+        "role": "Web designer, developer and project owner",
+        "projectUrl": "/project/portfolio",
+        "typeOfProject": [ "development", "design", "react", "frameworks", "html"]
+    },
+    {
         "id": "kumis",
         "title": "Kumis Digital",
         "tagline": "Veterinary-focused web development agency.",
@@ -61,43 +91,38 @@
         "typeOfProject": [ "development", "html", "design"]
     },
     {
-        "id": "portfolio",
-        "title": "Portfolio",
-        "tagline": "The project behind this portfolio",
-        "description": "This project was born as a platform to showcase all of my projects. The underlying idea was to integrate various projects that may not have initially appeared cohesive into a unified image. To achieve this objective, I relied on the strategic use of white space and a combination of grayscale tones with occasional pops of color.\n\n The project was developed using React, a powerful framework that allowed me to build a dynamic and interactive user experience.",
-        "technologies": ["figma", "react", "sass", "github"],
-        "image": "/img/portfolio.webp",
-        "altImg": "cover image, a circle with the title portfolio highlighted by a wavy line",
+        "id": "beautypro",
+        "title": "Beauty Pro",
+        "tagline": "Cosmetic and professional beauty products distribution - Work in progress",
+        "description": "This ongoing project involves Beauty Pro, a subsidiary of a corporation that encompasses multiple businesses that were previously operating under a single brand. The objective is to separate each business and establish a cohesive image across all of them, including the creation of individual websites for each entity. \n\n While the design system for all the brands is currently being developed, there was an immediate need to rebrand the Beauty Pro website for an upcoming trade show in July. As a temporary solution, we quickly refreshed the existing website using Elementor, working on a facelift of its design. However, the ultimate goal is to develop custom WordPress websites for each business as part of the larger project.",
+        "technologies": ["figma", "css", "wordpress", "elementor", "php"],
+        "image": "/img/beautypro.webp",
+        "altImg": "cover image with the beauty pro logo and makeup as background",
         "links": [
-            {
-                "url": "https://github.com/agimenez91/portfolio-react.git",
-                "name": "GitHub",
-                "icon": "github"
-            },
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
                 "icon": "figma"
             },
             {
-                "url": "https://andreagimenez.dev",
+                "url": "https://beautyprogf.com/",
                 "name": "Go to site",
                 "icon": "leave-to"
             }
         ],
         "year": "2023",
-        "role": "Web designer, developer and project owner",
-        "projectUrl": "/project/portfolio",
-        "typeOfProject": [ "development", "design", "react", "frameworks", "html"]
-    },
+        "role": "Web designer and developer.",
+        "projectUrl": "/project/beautypro",
+        "typeOfProject": ["design", "development", "cms"]
+    }, 
     {
-        "id": "occidental",
-        "title": "Occidental Resources",
-        "tagline": "Branding, web design and web development for a company in the commodities sector",
-        "description": "I was entrusted with creating the branding and website design for a young commodities company that wanted to showcase their expertise, global network, environmental commitment, and proximity to suppliers. \n\n With complete creative freedom, I chose an earthy color palette, a combination of serif for titles, lending a touch of elegance, while maintaining a clean and professional look with a corporate font for the body text. The logo represented a worldwide network dedicated to the Earth. \n\n The website was developed on Tilda.",
-        "technologies": ["tilda"],
-        "image": "/img/occidentalresources.webp",
-        "altImg": "cover image, occidental resources logo with a landscape as background",
+        "id": "iovoip",
+        "title": "IO VoIP",
+        "tagline": "Web design and development for a cloud communications company",
+        "description": "IO VoIP, a cloud communication company, required a website to establish an online presence and enhance customer trust. To meet these objectives, I developed a color palette that not only conveyed a sense of corporate identity but also prioritized accessibility. The chosen colors were harmonized with the company's logo to maintain consistency and brand recognition. \n\n In terms of website development, they needed the website fast, so I utilized Elementor, to create a visually appealing and functional website for IO VoIP.",
+        "technologies": ["elementor", "wordpress", "css"],
+        "image": "/img/iovoip.webp",
+        "altImg": "cover image, IO VoIP's logo",
         "links": [
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
@@ -105,14 +130,14 @@
                 "icon": "figma"
             },
             {
-                "url": "https://occidentalresources.com",
+                "url": "https://iovoip.com/",
                 "name": "Go to site",
                 "icon": "leave-to"
             }
         ],
-        "year": "2022",
-        "role": "Designer and web developer.",
-        "projectUrl": "/project/occidental",
+        "year": "2023",
+        "role": "Web designer and developer.",
+        "projectUrl": "/project/iovoip",
         "typeOfProject": ["design", "development", "cms"]
     },
     {
@@ -141,31 +166,6 @@
         "typeOfProject": ["design", "development", "cms"]
     },
     {
-        "id": "beautypro",
-        "title": "Beauty Pro",
-        "tagline": "Cosmetic and professional beauty products distribution - Work in progress",
-        "description": "This ongoing project involves Beauty Pro, a subsidiary of a corporation that encompasses multiple businesses that were previously operating under a single brand. The objective is to separate each business and establish a cohesive image across all of them, including the creation of individual websites for each entity. \n\n While the design system for all the brands is currently being developed, there was an immediate need to rebrand the Beauty Pro website for an upcoming trade show in July. As a temporary solution, we quickly refreshed the existing website using Elementor, working on a facelift of its design. However, the ultimate goal is to develop custom WordPress websites for each business as part of the larger project.",
-        "technologies": ["figma", "css", "wordpress", "elementor", "php"],
-        "image": "/img/beautypro.webp",
-        "altImg": "cover image with the beauty pro logo and makeup as background",
-        "links": [
-            {
-                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
-                "icon": "figma"
-            },
-            {
-                "url": "https://beautyprogf.com/",
-                "name": "Go to site",
-                "icon": "leave-to"
-            }
-        ],
-        "year": "2023",
-        "role": "Web designer and developer.",
-        "projectUrl": "/project/beautypro",
-        "typeOfProject": ["design", "development", "cms"]
-    },
-    {
         "id": "sanjose",
         "title": "Tanatorio San José",
         "tagline": "Web design and development for Tanatorio San José",
@@ -188,81 +188,6 @@
         "year": "2022",
         "role": "Web designer and developer.",
         "projectUrl": "/project/sanjose",
-        "typeOfProject": ["design", "development", "cms"]
-    },
-    {
-        "id": "iovoip",
-        "title": "IO VoIP",
-        "tagline": "Web design and development for a cloud communications company",
-        "description": "IO VoIP, a cloud communication company, required a website to establish an online presence and enhance customer trust. To meet these objectives, I developed a color palette that not only conveyed a sense of corporate identity but also prioritized accessibility. The chosen colors were harmonized with the company's logo to maintain consistency and brand recognition. \n\n In terms of website development, they needed the website fast, so I utilized Elementor, to create a visually appealing and functional website for IO VoIP.",
-        "technologies": ["elementor", "wordpress", "css"],
-        "image": "/img/iovoip.webp",
-        "altImg": "cover image, IO VoIP's logo",
-        "links": [
-            {
-                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
-                "icon": "figma"
-            },
-            {
-                "url": "https://iovoip.com/",
-                "name": "Go to site",
-                "icon": "leave-to"
-            }
-        ],
-        "year": "2023",
-        "role": "Web designer and developer.",
-        "projectUrl": "/project/iovoip",
-        "typeOfProject": ["design", "development", "cms"]
-    },
-    {
-        "id": "logixcare",
-        "title": "LogixCare LLC",
-        "tagline": "Web design and development for an IT Company",
-        "description": "This particular website holds a special significance for me as it marked the beginning of my journey into web development. When my company needed a new website, I initially outsourced the development to a third-party company using WordPress. However, upon seeing the final result, I was dissatisfied and realized that I had the ability to work on the site and make modifications myself. This realization sparked my interest in web development and set me on this path. \n\n As I delved deeper into the field, I discovered another CMS called Tilda. Its speed, optimization, and user-friendly features made it a preferable choice over WordPress. Consequently, I made the decision to migrate the website to Tilda and underwent a complete redesign using this platform.",
-        "technologies": ["figma", "tilda"],
-        "image": "/img/logixcare.webp",
-        "altImg": "cover image, logixcare logo with miami landscape as background",
-        "links": [
-            {
-                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
-                "icon": "figma"
-            },
-            {
-                "url": "https://logixcare.com/",
-                "name": "Go to site",
-                "icon": "leave-to"
-            }
-        ],
-        "year": "2020",
-        "role": "Web designer and developer.",
-        "projectUrl": "/project/logixcare",
-        "typeOfProject": ["design", "development", "cms"]
-    },
-    {
-        "id": "carysfort",
-        "title": "Carysfort Group LLC.",
-        "tagline": "Web design and development for Carysfort Group",
-        "description": "Carysfort Group is a comprehensive service provider offering property, lifestyle, and transportation. Managed by an elderly couple, they sought a new website to showcase their range of services. However, despite the website being designed and completed in 2021, they have chosen not to make it publicly accessible at this time due to their existing high workload. They prefer not to handle additional business inquiries online.\n\n That being said, you are welcome to visit the website by following the link provided on this screen. The website was specifically designed to capture the essence of the Florida Keys, evoking a luxurious atmosphere. It was developed using Tilda.",
-        "technologies": ["tilda"],
-        "image": "/img/carysfort.webp",
-        "altImg": "cover image, showcasing a sea view with the carysfort logo",
-        "links": [
-            {
-                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
-                "name": "Figma",
-                "icon": "figma"
-            },
-            {
-                "url": "https://carysfortgroupllc.com/home",
-                "name": "Go to site",
-                "icon": "leave-to"
-            }
-        ],
-        "year": "2021",
-        "role": "Web designer and developer.",
-        "projectUrl": "/project/carysfort",
         "typeOfProject": ["design", "development", "cms"]
     },
     {
@@ -291,6 +216,31 @@
         "typeOfProject": ["design", "development", "cms"]
     },
     {
+        "id": "occidental",
+        "title": "Occidental Resources",
+        "tagline": "Branding, web design and web development for a company in the commodities sector",
+        "description": "I was entrusted with creating the branding and website design for a young commodities company that wanted to showcase their expertise, global network, environmental commitment, and proximity to suppliers. \n\n With complete creative freedom, I chose an earthy color palette, a combination of serif for titles, lending a touch of elegance, while maintaining a clean and professional look with a corporate font for the body text. The logo represented a worldwide network dedicated to the Earth. \n\n The website was developed on Tilda.",
+        "technologies": ["tilda"],
+        "image": "/img/occidentalresources.webp",
+        "altImg": "cover image, occidental resources logo with a landscape as background",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://occidentalresources.com",
+                "name": "Go to site",
+                "icon": "leave-to"
+            }
+        ],
+        "year": "2022",
+        "role": "Designer and web developer.",
+        "projectUrl": "/project/occidental",
+        "typeOfProject": ["design", "development", "cms"]
+    },
+    {
         "id": "mariaykevin",
         "title": "Maria & Kevin",
         "tagline": "Wedding web design",
@@ -308,6 +258,56 @@
         "year": "2022",
         "role": "Web designer and developer.",
         "projectUrl": "/project/mariaykevin",
+        "typeOfProject": ["design", "development", "cms"]
+    },
+    {
+        "id": "carysfort",
+        "title": "Carysfort Group LLC.",
+        "tagline": "Web design and development for Carysfort Group",
+        "description": "Carysfort Group is a comprehensive service provider offering property, lifestyle, and transportation. Managed by an elderly couple, they sought a new website to showcase their range of services. However, despite the website being designed and completed in 2021, they have chosen not to make it publicly accessible at this time due to their existing high workload. They prefer not to handle additional business inquiries online.\n\n That being said, you are welcome to visit the website by following the link provided on this screen. The website was specifically designed to capture the essence of the Florida Keys, evoking a luxurious atmosphere. It was developed using Tilda.",
+        "technologies": ["tilda"],
+        "image": "/img/carysfort.webp",
+        "altImg": "cover image, showcasing a sea view with the carysfort logo",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://carysfortgroupllc.com/home",
+                "name": "Go to site",
+                "icon": "leave-to"
+            }
+        ],
+        "year": "2021",
+        "role": "Web designer and developer.",
+        "projectUrl": "/project/carysfort",
+        "typeOfProject": ["design", "development", "cms"]
+    },
+    {
+        "id": "logixcare",
+        "title": "LogixCare LLC",
+        "tagline": "Web design and development for an IT Company",
+        "description": "This particular website holds a special significance for me as it marked the beginning of my journey into web development. When my company needed a new website, I initially outsourced the development to a third-party company using WordPress. However, upon seeing the final result, I was dissatisfied and realized that I had the ability to work on the site and make modifications myself. This realization sparked my interest in web development and set me on this path. \n\n As I delved deeper into the field, I discovered another CMS called Tilda. Its speed, optimization, and user-friendly features made it a preferable choice over WordPress. Consequently, I made the decision to migrate the website to Tilda and underwent a complete redesign using this platform.",
+        "technologies": ["figma", "tilda"],
+        "image": "/img/logixcare.webp",
+        "altImg": "cover image, logixcare logo with miami landscape as background",
+        "links": [
+            {
+                "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "url": "https://logixcare.com/",
+                "name": "Go to site",
+                "icon": "leave-to"
+            }
+        ],
+        "year": "2020",
+        "role": "Web designer and developer.",
+        "projectUrl": "/project/logixcare",
         "typeOfProject": ["design", "development", "cms"]
     }
 ]
