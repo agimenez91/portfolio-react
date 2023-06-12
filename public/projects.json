@@ -11,17 +11,20 @@
             {
                 "url": "https://github.com/agimenez91/portfolio-react.git",
                 "name": "GitHub",
-                "icon": "github"
+                "icon": "github",
+                "ariaLink": "Link that drives to github"
             },
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://andreagimenez.dev",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://andreagimenez.dev"
             }
         ],
         "year": "2023",
@@ -41,17 +44,20 @@
             {
                 "url": "https://github.com/agimenez91/AndreaG_ProyectBeta.git",
                 "name": "GitHub",
-                "icon": "github"
+                "icon": "github",
+                "ariaLink": "Link that drives to github"
             },
             {
                 "url": "https://www.figma.com/file/gSyQJOmOycmuzY9evBLNTL/Andrea-Gim%C3%A9nez---Project-Beta?type=design&node-id=504%3A2&t=fqo44ftQDJOolrwU-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://kumis.digital",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://kumis.digital"
             }
         ],
         "year": "2023",
@@ -72,17 +78,20 @@
             {
                 "url": "https://github.com/agimenez91/Project-Alpha_Andrea-Gimenez.git",
                 "name": "GitHub",
-                "icon": "github"
+                "icon": "github",
+                "ariaLink": "Link that drives to github"
             },
             {
                 "url": "https://www.figma.com/file/zjn4yKIlCD7Iqui58pfiia/Andrea-Gim%C3%A9nez---Project-Alpha?type=design&node-id=510%3A13&t=1k8n7BBVywACn8TA-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://andreag-about.netlify.app/",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://andreag-about.netlify.app/"
             }
         ],
         "year": "2023",
@@ -102,12 +111,14 @@
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://beautyprogf.com/",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://beautyprogf.com/"
             }
         ],
         "year": "2023",
@@ -127,12 +138,14 @@
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://iovoip.com/",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://iovoip.com/"
             }
         ],
         "year": "2023",
@@ -152,12 +165,14 @@
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://activafreelancer.com/",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://activafreelancer.com/"
             }
         ],
         "year": "2022",
@@ -177,12 +192,14 @@
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://tanatoriosanjose.net/",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://tanatoriosanjose.net/"
             }
         ],
         "year": "2022",
@@ -202,12 +219,14 @@
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://tarichlaw.com/",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://tarichlaw.com/"
             }
         ],
         "year": "2022",
@@ -227,12 +246,14 @@
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://occidentalresources.com",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://occidentalresources.com"
             }
         ],
         "year": "2022",
@@ -252,7 +273,8 @@
             {
                 "url": "https://youtu.be/GejHcqUFul8",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to a youtube video about the website"
             }
         ],
         "year": "2022",
@@ -272,12 +294,14 @@
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://carysfortgroupllc.com/home",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://carysfortgroupllc.com/home"
             }
         ],
         "year": "2021",
@@ -297,12 +321,14 @@
             {
                 "url": "https://www.figma.com/file/ib7HGVISB2mb5pbdJn53GB/Andrea-Gim%C3%A9nez---Project-Gamma?type=design&node-id=170%3A910&t=SbgMe3UnPcyzSxIR-1",
                 "name": "Figma",
-                "icon": "figma"
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
             },
             {
                 "url": "https://logixcare.com/",
                 "name": "Go to site",
-                "icon": "leave-to"
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://logixcare.com/"
             }
         ],
         "year": "2020",

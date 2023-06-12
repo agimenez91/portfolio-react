@@ -21,7 +21,7 @@ function ProjectCard(props) {
                   <Icon key={tech} name={tech} />
                 ))}
               </div>
-                <Button href={props.projectUrl} type='btn--accent' icon="right-arrow"></Button>
+                <Button href={props.projectUrl} type='btn--accent' icon="right-arrow" ariaLink="button that drives you to the project page" ariaButton="Button that contains a link"></Button>
             </div>
           </div>
           <div className="projectCard__overlay"></div>

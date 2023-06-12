@@ -10,9 +10,7 @@ function Projects(props) {
         <div className="projects">
           <div className="flex--row projects__grid--1">
             <h1>{props.title}</h1>
-            <Link to={props.projectUrl}>
-              <Button type="btn btn--accent" content={<Icon name="leave-to"/>}></Button>
-            </Link>
+              <Button href={props.projectUrl} ariaButton="button that includes a link" ariaLink="link that drives to project website" type="btn btn--accent" content={<Icon name="leave-to"/>}></Button>
           </div>
           <figure className="projects__grid--2">
             <img className="projects__img" src={props.image} alt={props.alt}/>
@@ -39,7 +37,7 @@ function Projects(props) {
             <div className="flex--column projects__grid--7">
               <h2 className="h6">Links:</h2>
               <div className="flex--row">
-                {props.links?.map(links =><Button href={links?.url} key={links?.url} target="_blank" content={links?.name} icon="leave-to"/>)}
+                {props.links?.map(links =><Button href={links?.url} ariaLink={links?.ariaLink} key={links?.url} target="_blank" content={links?.name} icon="leave-to"/>)}
               </div>
             </div>
           </div>

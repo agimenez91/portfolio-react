@@ -11,9 +11,9 @@ function Button(props) {
 
   return (
     <>
-      <button className={props.type} onClick={handleClick}>
+      <button aria-label={props.ariaButton} className={props.type} onClick={handleClick}>
         {props.href ? (
-          <a href={props.href} target={props.target} onClick={props.onClick}>
+          <a aria-label={props.ariaLink} href={props.href} target={props.target} onClick={props.onClick}>
             {props.content} <Icon name={props.icon}/>
           </a>
         ) : (
