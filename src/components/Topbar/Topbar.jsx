@@ -52,7 +52,7 @@ function Topbar() {
           <li className="nav__item"><Link to="/legal" className="nav__item--link">Legal Notice</Link></li>
           <li className="nav__item"><Link to="/privacy" className="nav__item--link">Privacy Policy</Link></li>
           <li className="nav__item"><Link to="/cookies" className="nav__item--link">Cookie Policy</Link></li>
-          <small className="small accent-font copywright">Andrea Giménez 2023 <span className="main-font">©</span> All Rights Reserved.</small>
+          <small aria-roledescription="li" className="small accent-font copywright">Andrea Giménez 2023 <span className="main-font">©</span> All Rights Reserved.</small>
         </ul>
         <div className="nav__wrap">
           <ul className="nav nav--desktop">
