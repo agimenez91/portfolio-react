@@ -25,10 +25,10 @@ const Ball = () => {
     const screenHeight = window.innerHeight;
     const ballWidth = ball.offsetWidth;
     const ballHeight = ball.offsetHeight;
-    // const maxX = screenWidth - ballWidth;
-    // const maxY = screenHeight - ballHeight;
-    const x = generateRandom(screenWidth);
-    const y = generateRandom(screenHeight);
+    const maxX = screenWidth - ballWidth;
+    const maxY = screenHeight - ballHeight;
+    const x = generateRandom(maxX);
+    const y = generateRandom(maxY);
     ball.style.left = `${x}px`;
     ball.style.top = `${y}px`;
   };
