@@ -108,27 +108,3 @@
     }
     
 }
-
-.project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    @media screen and ( min-height: 660px ) {
-        @include MQ ($desktop-big) {
-            height: 100%;
-        }
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 100%;
-    }  
-}
-
-#projects {padding-top: var(--topbar-height);}

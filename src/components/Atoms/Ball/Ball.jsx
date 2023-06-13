@@ -25,10 +25,10 @@ const Ball = () => {
     const screenHeight = window.innerHeight;
     const ballWidth = ball.offsetWidth;
     const ballHeight = ball.offsetHeight;
-    const maxX = screenWidth - ballWidth;
-    const maxY = screenHeight - ballHeight;
-    const x = generateRandom(maxX);
-    const y = generateRandom(maxY);
+    // const maxX = screenWidth - ballWidth;
+    // const maxY = screenHeight - ballHeight;
+    const x = generateRandom(screenWidth);
+    const y = generateRandom(screenHeight);
     ball.style.left = `${x}px`;
     ball.style.top = `${y}px`;
   };
@@ -38,7 +38,7 @@ const Ball = () => {
   useEffect(() => {
     if (isTabletOrMobile) {
       handleMobile();
-      interval = setInterval(handleMobile, 4000);
+      interval = setInterval(handleMobile, 8000);
     } else {
       document.addEventListener('mousemove', handleMouseMove);
     }
