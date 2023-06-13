@@ -8,24 +8,25 @@
     justify-content: center;
     gap: var(--gap-L);
     padding-top: var(--topbar-height);
+    flex: 1;
+    animation: fadeIn 0.7s ease-in;
 
     @include MQ ($tablet) {
         padding-top: calc(var(--topbar-height) * 1.5);
-        padding-bottom: var(--topbar-height);
     }
 
-    @media screen and ( min-height: 660px ) {
-    @include MQ ($desktop-small) {
+    @include MQ ($desktop) {
         display: grid;
-        height: calc(100vh - var(--topbar-height));
         grid-template-columns: 2fr 2fr 3fr;
         column-gap: var(--gap-grid-M);
         align-content: center;
         padding-bottom: inherit;
-    }}
+        padding-top: calc(var(--topbar-height) * 2);
+    }
 
     p {
         margin: 0;
+        margin-bottom: 0.3em;
     }
 
     &__img {
@@ -33,13 +34,11 @@
         object-fit: cover;
         mix-blend-mode: luminosity;
 
-        @media screen and ( max-height: 660px ) {
-            @include MQ ($tablet-big) {
-                aspect-ratio: 4/1.5;
-            }
+        @include MQ ($tablet) {
+            aspect-ratio: 4/1.5;
         }
         
-        @include MQ ($desktop-small) {
+        @include MQ ($desktop) {
             aspect-ratio: inherit;
         }
 
@@ -60,9 +59,9 @@
             padding: 0;
         }
     }
-    @media screen and ( min-height: 660px ) {
+
     &__grid-- {
-        @include MQ ($desktop-small) {
+        @include MQ ($desktop) {
             &1 {
                 grid-column: 1/3;
                 grid-row: 1;
@@ -72,6 +71,10 @@
                 grid-column: 3/4;
                 grid-row: 1 / span 3;
                 align-self: center;
+
+                @include MQ ($desktop-small) {
+                    align-self: center;
+                }
             }
 
             &3  {
@@ -103,7 +106,27 @@
             }
         }
     }
+    
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and ( min-height: 660px ) {
+        @include MQ ($desktop-big) {
+            height: 100%;
+        }
     }
+}
 
-
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }  
 }

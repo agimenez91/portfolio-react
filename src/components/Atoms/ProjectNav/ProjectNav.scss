@@ -2,11 +2,11 @@
 
 .project-nav {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     gap: var(--gap-S);
     color: var(--color-greyscale8);
-    height: var(--unit-80);
+    padding: var(--gap-grid-S);
 
     @include MQ ($desktop) {
         align-items: end;
@@ -17,15 +17,6 @@
         align-items: center;
         justify-content: center;
         gap: var(--unit-12);
-    }
-
-    @media screen and ( min-height: 660px ) {
-        @include MQ ($desktop) {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
     }
 
     p {

@@ -159,7 +159,16 @@ html {
     max-width: 100%;
     overflow-x: hidden;
     cursor: default;
+    height: 100%;
 }  
+
+body, main, div#root {
+    height: 100%;
+}
+
+.main {
+    position: relative;
+}
   
 // :focus {
 //     outline: none;

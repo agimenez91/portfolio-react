@@ -15,7 +15,6 @@ function Filter({ onFilter }) {
   const handleOpen = () => {
       setOpen(!open);
   }
-  console.log(isTabletOrMobile)
 
   return (
     <div className="filter">
