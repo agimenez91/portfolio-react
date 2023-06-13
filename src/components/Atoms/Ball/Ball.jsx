@@ -38,7 +38,7 @@ const Ball = () => {
   useEffect(() => {
     if (isTabletOrMobile) {
       handleMobile();
-      interval = setInterval(handleMobile, 8000);
+      interval = setInterval(handleMobile, 4000);
     } else {
       document.addEventListener('mousemove', handleMouseMove);
     }
