@@ -41,7 +41,7 @@
     }
 
     &__item a {
-        text-decoration: none
+        text-decoration: none;
     }
 
     &__wrap {
@@ -109,5 +109,8 @@
     }
 }
 
+.burger {
+    cursor: pointer;
+}
 
 

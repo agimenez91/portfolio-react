@@ -11,6 +11,7 @@ function generateRandom(maxLimit = 100) {
 const Ball = () => {
   const ballRef = useRef(null);
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 50rem)' });
+  const screenHeight = window.innerHeight;
 
   const handleMouseMove = (event) => {
     const ball = ballRef.current;
@@ -37,7 +38,7 @@ const Ball = () => {
   useEffect(() => {
     if (isTabletOrMobile) {
       handleMobile();
-      interval = setInterval(handleMobile, 8000);
+      interval = setInterval(handleMobile, 4000);
     } else {
       document.addEventListener('mousemove', handleMouseMove);
     }

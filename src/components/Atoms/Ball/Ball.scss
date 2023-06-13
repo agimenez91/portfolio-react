@@ -1,22 +1,29 @@
 @import "/src/globalStyles/tools";
 
 .ball {
-  width: 250px;
-  height: 250px;
-  background: linear-gradient(158.63deg, #A7B9F9 -5.25%, #BDBBFA 28.3%, #FDCECE 108.22%);
-  filter: blur(35px);
-  border-radius: 100%;
   position: absolute;
-  pointer-events: none; 
-  transform: translate(-50%, -50%);
-  z-index: -3;
-  overflow: hidden;
-  transition: all 4s ease-in-out;
- 
+  transition: all 5s ease-in-out;
 
   @include MQ ($desktop) {
-    animation: rotateball 7s infinite;
     transition: transform 0.4s ease; 
+    z-index: -3;
+  }
+
+  &::after {
+    content: "";
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(158.63deg, #A7B9F9 -5.25%, #BDBBFA 28.3%, #FDCECE 108.22%);
+    filter: blur(35px);
+    -webkit-filter: blur(35px);
+    border-radius: 100%;
+    position: absolute;
+    pointer-events: none; 
+    // transform: translate(-50%, -50%);
+    z-index: -3;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    animation: rotateball 7s infinite;
   }
 
   &--404 {
@@ -30,18 +37,6 @@
     filter: blur(100px);
     z-index: -1;
     animation: rotatescale 14s infinite;
-  }
-
-  &--mobile {
-    width: 250px;
-    height: 250px;
-    background: linear-gradient(158.63deg, #A7B9F9 -5.25%, #BDBBFA 28.3%, #FDCECE 108.22%);
-    filter: blur(35px);
-    border-radius: 100%;
-    position: absolute;
-    pointer-events: none;
-    z-index: -3;
-    overflow: hidden;
   }
 }
 

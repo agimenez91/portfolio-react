@@ -27,8 +27,9 @@ function Home() {
   return (
     <>
       <Cover />
-      <Filter onFilter={handleFilter} />
-      <div id="projects" className="col3">
+      <div id="projects"></div>
+      <Filter onFilter={handleFilter}/>
+      <div className="col3">
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}
