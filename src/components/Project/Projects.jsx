@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import Button from "../Atoms/Button/Button"
 import Icon from "../Atoms/Icons/Icon"
 import "./Projects.scss"

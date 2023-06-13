@@ -3,6 +3,7 @@ import { projectContext } from "../App";
 import Cover from "../components/Cover/Cover";
 import Filter from "../components/Filter/Filter";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
+import DropdownBtn from "../components/Atoms/DropdownButton/DropdownBtn";
 
 function Home() {
   const { projects } = useContext(projectContext);
