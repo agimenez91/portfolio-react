@@ -28,7 +28,9 @@ function Project() {
           title={selectedProject?.title}
           tagline={selectedProject?.tagline}
           image={selectedProject?.image}
-          description={selectedProject?.description}
+          description={selectedProject?.description.split('\n').map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
           year={selectedProject?.year}
           role={selectedProject?.role}
           links={selectedProject?.links}

@@ -14,9 +14,9 @@ function Projects(props) {
           <figure className="projects__grid--2">
             <img className="projects__img" src={props.image} alt={props.alt}/>
           </figure>
-          <p className="projects__grid--3">
+          <div className="projects__grid--3">
             {props.description}
-          </p>
+          </div>
           <div className="flex--column projects__grid--4">
             <h2 className="h6">Technology used:</h2>
             <div className="flex--row">
