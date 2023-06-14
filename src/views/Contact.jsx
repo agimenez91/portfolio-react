@@ -8,7 +8,7 @@ function Contact() {
         <div className="contact">
           <div>
           <h1 className="display">Get in <span className="relative">touch<WavyLine></WavyLine></span> !</h1>
-          <p className="big">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, nisi. Atque nesciunt sit unde natus nam ratione dolor. Consectetur praesentium earum atque explicabo iste temporibus illum recusandae rerum, itaque fugiat.</p>
+          <p className="big">If you like my work or you wish to discuss further what how we can help each other, please feel free to contact me or explore my channels. <br/>Thank you!</p>
           </div>
           <div className="flex--row extragap wrap">
             <div className="flex--column">
