@@ -88,10 +88,10 @@
                 "ariaLink": "Link that drives to figma"
             },
             {
-                "url": "https://andreag-about.netlify.app/",
+                "url": "https://aboutandrea.netlify.app/",
                 "name": "Go to site",
                 "icon": "leave-to",
-                "ariaLink": "Link that drives to https://andreag-about.netlify.app/"
+                "ariaLink": "Link that drives to https://aboutandrea.netlify.app/"
             }
         ],
         "year": "2023",
