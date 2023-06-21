@@ -6,7 +6,7 @@
   background: linear-gradient(158.63deg, #A7B9F9 -5.25%, #BDBBFA 28.3%, #FDCECE 108.22%);
   filter: blur(35px);
   border-radius: 100%;
-  position: absolute;
+  position: fixed;
   pointer-events: none; 
   transform: translate(-50%, -50%);
   z-index: -3;
