@@ -1,5 +1,5 @@
 .projectCard {
-    padding: var(--unit-40) var(--unit-32);
+    padding: var(--unit-40);
     color: var(--color-pearl);
     fill: var(--color-pearl);
     display: flex;
@@ -19,6 +19,7 @@
     &__content {
         z-index: 2;
         opacity: 0%;
+        transition: 0.5s ease-in-out;
     }
 
     &__overlay {
@@ -41,18 +42,20 @@
     }
 
     &:hover .projectCard__overlay {
-        background-color: #222222d0;
-        position: absolute;
-        inset: 0;
-        z-index: 1;
-        transition: 0.3s ease-in-out;
         opacity: 100%;
-        mix-blend-mode: multiply;
     }
 
     &:hover .projectCard__content {
         opacity: 100%;
-        transition: 0.3s ease-in-out;
     }
 
+}
+
+.projectCard__overlay {
+    background-color: #222222d0;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    mix-blend-mode: multiply;
+    transition: 0.5s ease-in-out;
 }
