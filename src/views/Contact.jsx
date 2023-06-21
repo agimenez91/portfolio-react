@@ -15,10 +15,10 @@ function Contact() {
               <h2 className="h6">Send an Email:</h2>
               <p><a aria-label="link that opens a window to send an email to andrea" href="mailto:andrea.gimenez91@gmail.com" target="_blank" rel="noreferrer">andrea.gimenez91@gmail.com</a></p>
             </div>
-            <div className="flex--column">
+            {/* <div className="flex--column">
               <h2 className="h6">Call/text me:</h2>
               <p><a href="tel:+34606647405" aria-label="link that calls to andrea's phone">+34 606 64 74 05</a></p>
-            </div>
+            </div> */}
           </div>
           <div className="flex--column">
             <h2 className="h6">Or take a look:</h2>
