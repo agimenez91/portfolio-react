@@ -8,7 +8,7 @@ function Cover() {
       <>
         <div className="cover">
           <TypographicEffect></TypographicEffect>
-          <p className="big">Frontend developer who aims to create compositions that are aesthetically pleasing and easy to understand for all audiences.</p>
+          <p className="big">Frontend developer who aims to create compositions aesthetically pleasing and easy to understand for all audiences.</p>
         </div>
       </>
     )
