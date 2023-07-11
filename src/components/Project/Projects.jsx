@@ -9,7 +9,7 @@ function Projects(props) {
         <div className="projects">
           <div className="flex--row projects__grid--1">
             <h1>{props.title}</h1>
-              <Button href={props.projectUrl} ariaButton="button that includes a link" ariaLink="link that drives to project website" type="btn btn--accent" content={<Icon name="leave-to"/>}></Button>
+              {/* <Button href={props.projectUrl} ariaButton="button that includes a link" ariaLink="link that drives to project website" type="btn btn--accent" content={<Icon name="leave-to"/>}></Button> */}
           </div>
           <figure className="projects__grid--2">
             <img className="projects__img" src={props.image} alt={props.alt}/>

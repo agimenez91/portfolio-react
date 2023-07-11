@@ -1,5 +1,38 @@
 [
     {
+        "id": "pokedex",
+        "title": "Pokedex",
+        "tagline": "This is a Pokédex, a hi-tech encyclopedia about pokemons",
+        "description": "This is the Pokédex. \n It records data about Pokémons.",
+        "technologies": ["figma", "react", "sass", "github"],
+        "image": "/img/pokedex.webp",
+        "altImg": "cover image, a circle with the title portfolio highlighted by a wavy line",
+        "links": [
+            {
+                "url": "https://github.com/agimenez91/pokedex.git",
+                "name": "GitHub",
+                "icon": "github",
+                "ariaLink": "Link that drives to github"
+            },
+            {
+                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
+                "name": "Figma",
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
+            },
+            {
+                "url": "https://pokedex1991.netlify.app/",
+                "name": "Go to site",
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
+            }
+        ],
+        "year": "2023",
+        "role": "Web designer, developer and project owner",
+        "projectUrl": "/project/pokedex",
+        "typeOfProject": [ "development", "design", "react", "frameworks", "html"]
+    },
+    {
         "id": "portfolio",
         "title": "Portfolio",
         "tagline": "The project behind this portfolio",
