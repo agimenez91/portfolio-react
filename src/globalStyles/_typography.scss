@@ -1,97 +1,123 @@
-@import 'tools';
+@import "tools";
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: var(--typo-accent);
-    line-height: var(--line-height-small);
-    margin: 0 0 0.2em 0;
-    color: var(--color-greyscale9);
-    letter-spacing: var(--letter-spacing-L);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: var(--typo-accent);
+  line-height: var(--line-height-small);
+  margin: 0 0 0.2em 0;
+  color: var(--color-greyscale9);
+  letter-spacing: var(--letter-spacing-L);
 }
 
-$base-font-size: 3.2rem; 
-$font-size-difference: 0.3rem; 
+$base-font-size: 3.2rem;
+$font-size-difference: 0.3rem;
 
 @for $i from 1 through 6 {
   $font-size: $base-font-size - ($font-size-difference * ($i - 1));
-  h#{$i}, .h#{$i} {
+  h#{$i},
+  .h#{$i} {
     font-size: $font-size;
   }
 }
 
-@include MQ ($tablet) {
-    $base-font-size: 3.6rem; 
-    $font-size-difference: 0.3rem; 
+@include MQ($tablet) {
+  $base-font-size: 3.6rem;
+  $font-size-difference: 0.3rem;
 
-    @for $i from 1 through 6 {
-      $font-size: $base-font-size - ($font-size-difference * ($i - 1));
-      h#{$i}, .h#{$i} {
-        font-size: $font-size;
-      }
+  @for $i from 1 through 6 {
+    $font-size: $base-font-size - ($font-size-difference * ($i - 1));
+    h#{$i},
+    .h#{$i} {
+      font-size: $font-size;
     }
+  }
 }
 
-p, .p, small, .small, big, .big {
-    font-family: var(--typo-main);
-    line-height: var(--line-height-big);
-    font-weight: light;
-    margin: 0 0 1em 0;
-    max-width: 80rem;
+p,
+.p,
+small,
+.small,
+big,
+.big {
+  font-family: var(--typo-main);
+  line-height: var(--line-height-big);
+  font-weight: light;
+  margin: 0 0 1em 0;
+  max-width: 80rem;
 }
 
-p, .p {
-    font-size: var(--font-size-mobile);
+p,
+.p {
+  font-size: var(--font-size-mobile);
 
-    @include MQ ($tablet) {
-        font-size: var(--font-size-desktop);
-    }
+  @include MQ($tablet) {
+    font-size: var(--font-size-desktop);
+  }
 }
 
-small, .small {
-    font-size: var(--font-size-mobileS);
-
-    @include MQ ($tablet) {
-        font-size: var(--font-size-desktopS);
-    }
+.li {
+  margin-left: 2rem;
+  padding-left: 1rem;
 }
 
-big, .big {
-    font-size: var(--font-size-mobileL);
+small,
+.small {
+  font-size: var(--font-size-mobileS);
 
-    @include MQ ($tablet) {
-        font-size: var(--font-size-desktopL);
-    }
+  @include MQ($tablet) {
+    font-size: var(--font-size-desktopS);
+  }
+}
+
+big,
+.big {
+  font-size: var(--font-size-mobileL);
+
+  @include MQ($tablet) {
+    font-size: var(--font-size-desktopL);
+  }
 }
 
 .display {
-    font-size: var(--font-size-displayS);
-    letter-spacing: var(--letter-spacing-XL);
+  font-size: var(--font-size-displayS);
+  letter-spacing: var(--letter-spacing-XL);
 
-    @include MQ ($tablet) {
-        font-size: var(--font-size-displayL);
-    }
+  @include MQ($tablet) {
+    font-size: var(--font-size-displayL);
+  }
 }
 
-a, .a {
-    color: var(--color-greyscale9);
-    transition: 0.3s ease-in-out;
-    text-decoration-style: wavy;
+a,
+.a {
+  color: var(--color-greyscale9);
+  transition: 0.3s ease-in-out;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--color-lila);
+  text-decoration-skip: none;
+  text-underline-position: under;
+  font-size: var(--font-size-mobile);
+  line-height: var(--line-height-big);
+  margin-bottom: 0.5em;
+  mix-blend-mode: multiply;
+
+  @include MQ($tablet) {
+    font-size: var(--font-size-desktop);
+  }
+
+  &:hover {
+    color: var(--color-rose);
     text-decoration-color: var(--color-lila);
-    text-decoration-skip: none;
-    text-underline-position: under;
-    font-size: var(--font-size-mobile);
-    line-height: var(--line-height-big);
-    margin-bottom: 0.5em;
-    mix-blend-mode: multiply;
-
-    @include MQ ($tablet) {
-        font-size: var(--font-size-desktop);
-    }
-
-    &:hover {
-        color: var(--color-rose);
-        text-decoration-color: var(--color-lila);
-        // color: #262d5f;
-        // text-decoration-color: #51538a;
-    }
-
+    // color: #262d5f;
+    // text-decoration-color: #51538a;
+  }
 }

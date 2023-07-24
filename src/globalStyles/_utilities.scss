@@ -1,8 +1,8 @@
 .extragap {
-  @include MQ ($tablet) {
+  @include MQ($tablet) {
     gap: var(--gap-L);
   }
-  @include MQ ($desktop) {
+  @include MQ($desktop) {
     gap: var(--gap-XL);
   }
 }
@@ -15,3 +15,6 @@
   position: relative;
 }
 
+.xtra-padding-btm {
+  padding-bottom: 2rem;
+}
